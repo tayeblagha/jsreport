@@ -1,0 +1,32 @@
+# Dependencies
+node_modules
+/coverage
+
+# Optional npm cache files
+.npm
+
+# Environment files
+.env
+.env.local
+
+# IDE and editor files
+.idea/ # For JetBrains IDEs like WebStorm, IntelliJ
+.vscode/
+
+# System Files
+.DS_Store # macOS system files
+Thumbs.db # Windows system files
+
+# Build/Distro files
+dist/
+build/
+*.tgz # bundled app files
+
+# NPM debug log
+npm-debug.log*
+
+# Yarn lock file (if using yarn)
+# yarn-error.log*
+
+# Tests
+# test-results.xml
