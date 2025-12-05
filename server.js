@@ -1,25 +1,37 @@
-const jsreport = require('jsreport')()
-const express = require('express')
-const fs = require('fs').promises
-const path = require('path')
-const multer = require('multer')
-// syncronized fs 
-const fssync =  require('fs')
+const jsreport = require('jsreport')();
+const express = require('express');
+const fs = require('fs').promises;
+const path = require('path');
+const multer = require('multer');
+// synchronous fs
+const fssync = require('fs');
+
+// --- Utility: create colored rectangle as SVG data URI ---
+function makeRectangleSVGDataURI(widthPx = 200, heightPx = 100, fill = '#3465a4') {
+  const svg = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="${widthPx}" height="${heightPx}" viewBox="0 0 ${widthPx} ${heightPx}">
+      <rect width="${widthPx}" height="${heightPx}" rx="6" ry="6" fill="${fill}" />
+    </svg>`.trim();
+
+  const base64 = Buffer.from(svg).toString('base64');
+  return `data:image/svg+xml;base64,${base64}`;
+}
 
 // Initialize Express app
-const app = express()
-const upload = multer({ storage: multer.memoryStorage() })
+const app = express();
+const upload = multer({ storage: multer.memoryStorage() });
 
 // Middleware
-app.use(express.json())
-app.use(express.urlencoded({ extended: true }))
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Add pptx configuration to jsreport
 jsreport.beforeRenderListeners.add('pptx-config', (req, res) => {
   if (req.template.recipe === 'pptx') {
-    req.template.engine = 'handlebars'
+    req.template.engine = 'handlebars';
   }
-})
+});
+
 // API Endpoint: Generate PPTX via GET
 app.get('/generate-ppt', async (req, res) => {
   try {
@@ -49,23 +61,31 @@ app.get('/generate-ppt', async (req, res) => {
         error: 'Default data.json not found or invalid JSON'
       });
     }
-const helpersCode = fssync.readFileSync("helpers.js", "utf8");
+
+    // --- Add colored rectangle data URI for template ---
+    data.coloredRectangleDataURI = makeRectangleSVGDataURI(
+      300,                        // width in px
+      120,                        // height in px
+      data.rectColor || '#3465a4' // color from data.json or fallback
+    );
+
+    const helpersCode = fssync.readFileSync("helpers.js", "utf8");
 
     // --- Render PPTX using jsreport ---
-   const report = await jsreport.render({
-  template: {
-    recipe: 'pptx',
-    engine: 'handlebars',
-    helpers: helpersCode,
-    pptx: {
-      templateAsset: {
-        content: templateBuffer.toString('base64'),
-        encoding: 'base64'
-      }
-    }
-  },
-  data
-});
+    const report = await jsreport.render({
+      template: {
+        recipe: 'pptx',
+        engine: 'handlebars',
+        helpers: helpersCode,
+        pptx: {
+          templateAsset: {
+            content: templateBuffer.toString('base64'),
+            encoding: 'base64'
+          }
+        }
+      },
+      data
+    });
 
     // --- Send the generated PPTX ---
     const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
@@ -89,90 +109,90 @@ app.get('/health', (req, res) => {
     status: 'healthy',
     service: 'PPTX Generator API',
     timestamp: new Date().toISOString()
-  })
-})
+  });
+});
 
 // Optional: Get default template info
 app.get('/templates/default', async (req, res) => {
   try {
-    const files = []
-    
+    const files = [];
+
     try {
-      const templateStats = await fs.stat('list.pptx')
+      const templateStats = await fs.stat('list.pptx');
       files.push({
         name: 'list.pptx',
         exists: true,
         size: templateStats.size,
         modified: templateStats.mtime
-      })
+      });
     } catch {
       files.push({
         name: 'list.pptx',
         exists: false
-      })
+      });
     }
 
     try {
-      const dataStats = await fs.stat('data.json')
+      const dataStats = await fs.stat('data.json');
       files.push({
         name: 'data.json',
         exists: true,
         size: dataStats.size,
         modified: dataStats.mtime
-      })
+      });
     } catch {
       files.push({
         name: 'data.json',
         exists: false
-      })
+      });
     }
 
     res.json({
       success: true,
       defaultFiles: files
-    })
+    });
   } catch (error) {
     res.status(500).json({
       success: false,
       error: error.message
-    })
+    });
   }
-})
+});
 
 // Initialize jsreport and start server
 if (process.env.JSREPORT_CLI) {
   // Export jsreport instance for jsreport-cli
-  module.exports = jsreport
+  module.exports = jsreport;
 } else {
   jsreport.init().then(() => {
-    console.log('🚀 jsreport initialized successfully')
-    
+    console.log('🚀 jsreport initialized successfully');
+
     // Start Express server
-    const PORT = process.env.PORT || 3000
+    const PORT = process.env.PORT || 3000;
     app.listen(PORT, () => {
-      console.log(`🌐 API Server running on port ${PORT}`)
-      console.log('\n📋 Available Endpoints:')
-      console.log(`   POST http://localhost:${PORT}/generate-ppt - Generate PowerPoint`)
-      console.log(`   GET  http://localhost:${PORT}/health - Health check`)
-      console.log(`   GET  http://localhost:${PORT}/templates/default - Check default files`)
-      console.log('\n📤 You can now make API calls to generate PowerPoint presentations!')
-    })
+      console.log(`🌐 API Server running on port ${PORT}`);
+      console.log('\n📋 Available Endpoints:');
+      console.log(`   POST http://localhost:${PORT}/generate-ppt - Generate PowerPoint`);
+      console.log(`   GET  http://localhost:${PORT}/health - Health check`);
+      console.log(`   GET  http://localhost:${PORT}/templates/default - Check default files`);
+      console.log('\n📤 You can now make API calls to generate PowerPoint presentations!');
+    });
   }).catch((e) => {
-    console.error('Failed to initialize jsreport:', e)
-    process.exit(1)
-  })
+    console.error('Failed to initialize jsreport:', e);
+    process.exit(1);
+  });
 }
 
 async function shutdown() {
   try {
-    await jsreport.close()
-    console.log('\n👋 jsreport closed successfully')
-    process.exit(0)
+    await jsreport.close();
+    console.log('\n👋 jsreport closed successfully');
+    process.exit(0);
   } catch (e) {
-    console.error('Error during shutdown:', e)
-    process.exit(1)
+    console.error('Error during shutdown:', e);
+    process.exit(1);
   }
 }
 
-process.on('SIGTERM', shutdown)
-process.on('SIGINT', shutdown)
+process.on('SIGTERM', shutdown);
+process.on('SIGINT', shutdown);

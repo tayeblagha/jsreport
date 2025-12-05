@@ -1,0 +1,1567 @@
+{
+  "logo1": "data:image/jpeg;base64,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",
+  "logo2": "data:image/jpeg;base64,/9j/4QoORXhpZgAATU0AKgAAAAgADAEAAAMAAAABARYAAAEBAAMAAAABALYAAAECAAMAAAADAAAAngEGAAMAAAABAAIAAAESAAMAAAABAAEAAAEVAAMAAAABAAMAAAEaAAUAAAABAAAApAEbAAUAAAABAAAArAEoAAMAAAABAAIAAAExAAIAAAAeAAAAtAEyAAIAAAAUAAAA0odpAAQAAAABAAAA6AAAASAACAAIAAgADqYAAAAnEAAOpgAAACcQQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykAMjAyNTowODoyOSAxNjo0NTo0NAAAAAAEkAAABwAAAAQwMjIxoAEAAwAAAAH//wAAoAIABAAAAAEAAACLoAMABAAAAAEAAABbAAAAAAAAAAYBAwADAAAAAQAGAAABGgAFAAAAAQAAAW4BGwAFAAAAAQAAAXYBKAADAAAAAQACAAACAQAEAAAAAQAAAX4CAgAEAAAAAQAACIgAAAAAAAAASAAAAAEAAABIAAAAAf/Y/+0ADEFkb2JlX0NNAAL/7gAOQWRvYmUAZIAAAAAB/9sAhAAMCAgICQgMCQkMEQsKCxEVDwwMDxUYExMVExMYEQwMDAwMDBEMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAQ0LCw0ODRAODhAUDg4OFBQODg4OFBEMDAwMDBERDAwMDAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABbAIsDASIAAhEBAxEB/90ABAAJ/8QBPwAAAQUBAQEBAQEAAAAAAAAAAwABAgQFBgcICQoLAQABBQEBAQEBAQAAAAAAAAABAAIDBAUGBwgJCgsQAAEEAQMCBAIFBwYIBQMMMwEAAhEDBCESMQVBUWETInGBMgYUkaGxQiMkFVLBYjM0coLRQwclklPw4fFjczUWorKDJkSTVGRFwqN0NhfSVeJl8rOEw9N14/NGJ5SkhbSVxNTk9KW1xdXl9VZmdoaWprbG1ub2N0dXZ3eHl6e3x9fn9xEAAgIBAgQEAwQFBgcHBgU1AQACEQMhMRIEQVFhcSITBTKBkRShsUIjwVLR8DMkYuFygpJDUxVjczTxJQYWorKDByY1wtJEk1SjF2RFVTZ0ZeLys4TD03Xj80aUpIW0lcTU5PSltcXV5fVWZnaGlqa2xtbm9ic3R1dnd4eXp7fH/9oADAMBAAIRAxEAPwD0pJJJJSkkkklKSSSSUpJJJJSkkkklKSSSSUpJJJJSkkkklKSSSSU//9D0pJJJJSkkkpABJ4Ak/JJSO/Jx8dodfY2sHjcdT8AoUZ2HkO2U3Ne/93g/c5YOLU/que51zyNwL3kcho0bXWidV6YzCFd1D3bHOjU+5rgNwc1yre/MgzER7YPU+pr+9MgzER7YPf1PQOexv0nNb/WIH5VF99FZAssYwu4DnAErneqXfaa8O+0AudS4PMckO2uRMnpT2YIzbLN9hDS9hH5rtG+7+SieYlcuGNiI4rv9FJzyJlwxvhHFf9V6AlrRLiAPEkAJAgiWkEeIM/kWP0utud0y7EuJLa3gVu5LZG9u3+o5AZg9ZwXObjB213JqILT/ACtrvop3vGoyECYyHTePgn3TUZCBMZD9HcF3y9gMFzQfAkA/cnWN0/o132gZWcBLTvDCdznO/esP8lbKfjlKQuUeHsF8JSkLlHh7KSSST16kkkklKSSSSU//0fSkkkklKS076juEkklPOWU5fSMv1a2zXqGPIJa5p/MfH0XJr8nN6tYyuusQz6LGTtBPNlljl0nl49lx/wBYv8YuP0rOs6Z0/EOdkUnZc4u2Vtf/AKFja2vsusb+ftVf7sdYiZECb4WD2NwJkQJvhdDq+G+puNRU11grpLS5oJ13S7haXUGud0ctDSXenWNoEmfZ2XPfVn/GE7rHVK+lZPTbcfIfJ3Ukva0DUuya7G1W0V/8IucZ9dus4X1os+3Z9z+mY+Xc22hrWumprrGMraA1r/b7Pz1IMABnR+cVX7v6K4YgOOj844fL9F7npNn2PCyr72OaGvaQ0iC4xDWt3fylCm/rvUN1mM4V1tMQ2Gtn93c4Oc9ZnU/rlgdS+r+Xn9NpvyK+nW1faWWN9Ihr5/SN/nNza/z1V+rnWen9YpeHZzemZFTjONa+JZ+bdXZurY/d+f8A6NRSx5BwwAkYRH6JjAyKyUJjhiLMIj9EiJkXpOm9TyXZJwc0fpZIa+IO4fmPj2u3fmuWquZ6Pd0bP6n6eF1WvKycawF9YBl0fSdS95/Ts/N9StZzP8amEMq6rJ6fZTVSbW+o2wPc51ZLGMbXsZ/POb+c/wDRqXCMnCRPodL34WTFx8NT76X2e3SXnlP+Nvdf+l6WPs/f0rt1oafztr2Nqeu76fn4nUsKnOw7PVxshu6t/GnBa5v5r2O9j2KSmRsJJJJKUkkkkp//0vSkkkklKSSSSUoGDPgvOOt/VD6z9M6/b1zoDPtLXWuyKiwtNtbrN3q12UXfzrPdZt2/mL0cROuo8F5/1H6pfXvH6rk9S6V1QX2ZTpfZ6noP2j+bqsoe2zG20t9lexEKTfVT695WV1xnTut4lVWbkH0Bl1s9Ozezc9uNlVO3P26P2e/2Wf4Ncx07Bxeo/Xt2DmM9TGvzchtjJLZANzx7mFrvpNXUfVf6h9Sxurs63169lmRU4210scbHOucC318i+Gt9m72sYqvX/wDF71l3Wbup9Dur2X2nIa11hptpscdz/TsDTuZv99f56Winsul/V3o3R6sijp+N6dWXH2it7nWB8As2ubcX+3Y5ch1z6i/UqnI2v6sOkucZ+yvfXYG/8Wy79LU3+s5bow/rbifVAYVNrcnr7i5r8l1s7G2Pc71W3WtG+2qn9Gz/AMwXMdJ/xW5uQ223rOT9ktLvY2ktve88uuvus/6n+cSU9T9VPql9XelFnUOn2ftC93tZnPc2wNB+m3HFX6Knc36f+EXnX1bxun5X1wpx+pQcV+XfLHfRe8OtdRVZ/IfbtXSfV36o/W/6u/WBl2H6VvT3WhmSRaGC6kn+dOM76N9U72fy/wCQuT6b0kdZ+sL+li30jk35IZbEgOYbray5nt9u5iXdT6B/jKwunD6ufaLa2VZVVtTcR7WhriXO22Ut2j3V+jv9iH/irfaeg5THfzTMt3peW5jHW7f7awX/AOLz645mSyvPy6n1Ve1uTbe+8Nb39Kh49T+z7F6F0XpGL0XptPTsSTXSCXWO+k97jutusj86xySm8kkkgpSSSSSn/9P0pJJJJSkkkklKSSSSUpJJJJSkkkklLtMOBPYrgPq99ReudM+s1PVcl2OcWu66xwZYS+LBbshmxv8ApW/nLvkklKSSSSUpJJJJSkkkklP/1PSkkkklKSSSSUpJJJJSkkkklKSSSSUpJJJJSkkkklKSSSSUpJJJJT//2f/tEaxQaG90b3Nob3AgMy4wADhCSU0EBAAAAAAADxwBWgADGyVHHAIAAAIAAAA4QklNBCUAAAAAABDNz/p9qMe+CQVwdq6vBcNOOEJJTQQ6AAAAAADlAAAAEAAAAAEAAAAAAAtwcmludE91dHB1dAAAAAUAAAAAUHN0U2Jvb2wBAAAAAEludGVlbnVtAAAAAEludGUAAAAAQ2xybQAAAA9wcmludFNpeHRlZW5CaXRib29sAAAAAAtwcmludGVyTmFtZVRFWFQAAAABAAAAAAAPcHJpbnRQcm9vZlNldHVwT2JqYwAAAAwAUAByAG8AbwBmACAAUwBlAHQAdQBwAAAAAAAKcHJvb2ZTZXR1cAAAAAEAAAAAQmx0bmVudW0AAAAMYnVpbHRpblByb29mAAAACXByb29mQ01ZSwA4QklNBDsAAAAAAi0AAAAQAAAAAQAAAAAAEnByaW50T3V0cHV0T3B0aW9ucwAAABcAAAAAQ3B0bmJvb2wAAAAAAENsYnJib29sAAAAAABSZ3NNYm9vbAAAAAAAQ3JuQ2Jvb2wAAAAAAENudENib29sAAAAAABMYmxzYm9vbAAAAAAATmd0dmJvb2wAAAAAAEVtbERib29sAAAAAABJbnRyYm9vbAAAAAAAQmNrZ09iamMAAAABAAAAAAAAUkdCQwAAAAMAAAAAUmQgIGRvdWJAb+AAAAAAAAAAAABHcm4gZG91YkBv4AAAAAAAAAAAAEJsICBkb3ViQG/gAAAAAAAAAAAAQnJkVFVudEYjUmx0AAAAAAAAAAAAAAAAQmxkIFVudEYjUmx0AAAAAAAAAAAAAAAAUnNsdFVudEYjUHhsQFgAAAAAAAAAAAAKdmVjdG9yRGF0YWJvb2wBAAAAAFBnUHNlbnVtAAAAAFBnUHMAAAAAUGdQQwAAAABMZWZ0VW50RiNSbHQAAAAAAAAAAAAAAABUb3AgVW50RiNSbHQAAAAAAAAAAAAAAABTY2wgVW50RiNQcmNAWQAAAAAAAAAAABBjcm9wV2hlblByaW50aW5nYm9vbAAAAAAOY3JvcFJlY3RCb3R0b21sb25nAAAAAAAAAAxjcm9wUmVjdExlZnRsb25nAAAAAAAAAA1jcm9wUmVjdFJpZ2h0bG9uZwAAAAAAAAALY3JvcFJlY3RUb3Bsb25nAAAAAAA4QklNA+0AAAAAABAAYAAAAAEAAgBgAAAAAQACOEJJTQQmAAAAAAAOAAAAAAAAAAAAAD+AAAA4QklNBA0AAAAAAAQAAAAeOEJJTQQZAAAAAAAEAAAAHjhCSU0D8wAAAAAACQAAAAAAAAAAAQA4QklNJxAAAAAAAAoAAQAAAAAAAAACOEJJTQP1AAAAAABIAC9mZgABAGxmZgAGAAAAAAABAC9mZgABAKGZmgAGAAAAAAABADIAAAABAFoAAAAGAAAAAAABADUAAAABAC0AAAAGAAAAAAABOEJJTQP4AAAAAABwAAD/////////////////////////////A+gAAAAA/////////////////////////////wPoAAAAAP////////////////////////////8D6AAAAAD/////////////////////////////A+gAADhCSU0ECAAAAAAAEAAAAAEAAAJAAAACQAAAAAA4QklNBB4AAAAAAAQAAAAAOEJJTQQaAAAAAANRAAAABgAAAAAAAAAAAAAAWwAAAIsAAAAOAEwAbwBnAG8AIABUAGUAcwB0AC4AagBwAGUAZwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAiwAAAFsAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAQAAAAAAAG51bGwAAAACAAAABmJvdW5kc09iamMAAAABAAAAAAAAUmN0MQAAAAQAAAAAVG9wIGxvbmcAAAAAAAAAAExlZnRsb25nAAAAAAAAAABCdG9tbG9uZwAAAFsAAAAAUmdodGxvbmcAAACLAAAABnNsaWNlc1ZsTHMAAAABT2JqYwAAAAEAAAAAAAVzbGljZQAAABIAAAAHc2xpY2VJRGxvbmcAAAAAAAAAB2dyb3VwSURsb25nAAAAAAAAAAZvcmlnaW5lbnVtAAAADEVTbGljZU9yaWdpbgAAAA1hdXRvR2VuZXJhdGVkAAAAAFR5cGVlbnVtAAAACkVTbGljZVR5cGUAAAAASW1nIAAAAAZib3VuZHNPYmpjAAAAAQAAAAAAAFJjdDEAAAAEAAAAAFRvcCBsb25nAAAAAAAAAABMZWZ0bG9uZwAAAAAAAAAAQnRvbWxvbmcAAABbAAAAAFJnaHRsb25nAAAAiwAAAAN1cmxURVhUAAAAAQAAAAAAAG51bGxURVhUAAAAAQAAAAAAAE1zZ2VURVhUAAAAAQAAAAAABmFsdFRhZ1RFWFQAAAABAAAAAAAOY2VsbFRleHRJc0hUTUxib29sAQAAAAhjZWxsVGV4dFRFWFQAAAABAAAAAAAJaG9yekFsaWduZW51bQAAAA9FU2xp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YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4zLWMwMTEgNjYuMTQ1NjYxLCAyMDEyLzAyLzA2LTE0OjU2OjI3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06RG9jdW1lbnRJRD0iN0YyQUYyREM4QjIzNkVDQjQ1ODQ0RjQ2NDQ3QzAxOTAiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QzNGNTQ3MzlFRjg0RjAxMTkxOEU5NEJDQzdEQUFERTQiIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0iN0YyQUYyREM4QjIzNkVDQjQ1ODQ0RjQ2NDQ3QzAxOTAiIGRjOmZvcm1hdD0iaW1hZ2UvanBlZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgeG1wOkNyZWF0ZURhdGU9IjIwMjUtMDgtMjlUMTQ6NDQ6NTkrMDE6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDI1LTA4LTI5VDE2OjQ1OjQ0KzAxOjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDI1LTA4LTI5VDE2OjQ1OjQ0KzAxOjAwIj4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6QzJGNTQ3MzlFRjg0RjAxMTkxOEU5NEJDQzdEQUFERTQiIHN0RXZ0OndoZW49IjIwMjUtMDgtMjlUMTY6NDU6NDQrMDE6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDUzYgKFdpbmRvd3MpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDpDM0Y1NDczOUVGODRGMDExOTE4RTk0QkNDN0RBQURFNCIgc3RFdnQ6d2hlbj0iMjAyNS0wOC0yOVQxNjo0NTo0NCswMTowMCIgc3RFdnQ6c29mdHdhcmVBZ2VudD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHN0RXZ0OmNoYW5nZWQ9Ii8iLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDw/eHBhY2tldCBlbmQ9InciPz7/7gAOQWRvYmUAZAAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMAQcHBw0MDRgQEBgUDg4OFBQODg4OFBEMDAwMDBERDAwMDAwMEQwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAz/wAARCABbAIsDAREAAhEBAxEB/90ABAAS/8QBogAAAAcBAQEBAQAAAAAAAAAABAUDAgYBAAcICQoLAQACAgMBAQEBAQAAAAAAAAABAAIDBAUGBwgJCgsQAAIB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",
+  "fullMark": 100,
+  "date": "July 31, 2025",
+  "firstName": "ahlem",
+  "lastName": "masouad",
+  "gender": "Female",
+  "assessmentName": "Senior Project Manger",
+  "roleName": "Junior Project Manger",
+  "overallLevel": 3,
+  "overallLevelName": "Advanced",
+  "overallScore": 84,
+  "assessment": {
+    "1": {
+      "name": "Leadership",
+      "score": 73
+    },
+    "2": {
+      "name": "Technical",
+      "score": 89
+    },
+    "3": {
+      "name": "Behavioral",
+      "score": 93
+    },
+    "4": {
+      "name": "Cognitive",
+      "score": 86
+    },
+    "5": {
+      "name": "Personality",
+      "score": 80
+    },
+    "n": 5
+  },
+  "level": {
+    "1": "Foundation",
+    "2": "Intermediate",
+    "3": "Advanced",
+    "4": "Expert",
+    "5": "Overqualified",
+    "n": 5
+  },
+  "technical": {
+    "show": true,
+    "expected": false,
+    "technicalLevel": 4,
+    "technicalLevelName": "Expert",
+    "technicalScore": 89,
+    "competencies": [
+      {
+        "name": "Risk Management and Business Continuity",
+        "score": 0.75,
+        "level": 3,
+        "expected": 3
+      },
+      {
+        "name": "Strategy Formulation, Implementation and Planning",
+        "score": 0.75,
+        "level": 4,
+        "expected": 3
+      },
+      {
+        "name": "Talent Acquisition",
+        "score": 0,
+        "level": 1,
+        "expected": 3
+      },
+      {
+        "name": "Project Management",
+        "score": 0.75,
+        "level": 5,
+        "expected": 3
+      },
+      {
+        "name": "Budgeting and Financial Management",
+        "score": 0.75,
+        "level": 2,
+        "expected": 3
+      },
+      {
+        "name": "Organizational Development",
+        "score": 1,
+        "level": 4,
+        "expected": 3
+      },
+      {
+        "name": "Employee Relations Management",
+        "score": 0.25,
+        "level": 1,
+        "expected": 3
+      },
+      {
+        "name": "Talent Management",
+        "score": 0.5,
+        "level": 2,
+        "expected": 3
+      },
+      {
+        "name": "Policies, Systems, Processes and Procedures Implementation",
+        "score": 0.75,
+        "level": 3,
+        "expected": 4
+      },
+      {
+        "name": "Compensation and Benefits Management",
+        "score": 0.25,
+        "level": 1,
+        "expected": 4
+      },
+      {
+        "name": "Performance Management",
+        "score": 0.75,
+        "level": 3,
+        "expected": 4
+      },
+      {
+        "name": "Stakeholders Management",
+        "score": 0.25,
+        "level": 1,
+        "expected": 4
+      }
+    ],
+    "bar1": {
+      "type": "echarts@v5a",
+      "width": 848,
+      "height": 409,
+      "option": {
+        "grid": {
+          "top": 30,
+          "containLabel": true
+        },
+        "yAxis": {
+          "type": "category",
+          "data": [
+            "Financial Performance\nMonitoring",
+            "People Management",
+            "Policies, Systems, Processes\nand Procedures Implementation",
+            "Capital Management"
+          ],
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "axisLabel": {
+            "fontFamily": "Arial",
+            "fontSize": 16,
+            "color": "#333",
+            "fontWeight": "bold"
+          }
+        },
+        "xAxis": {
+          "type": "value",
+          "max": 150,
+          "interval": 25,
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "splitLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#E0E0E0",
+              "type": "dashed"
+            }
+          },
+          "axisLabel": {
+            "formatter": "{value}%",
+            "color": "#333"
+          }
+        },
+        "series": [
+          {
+            "name": "Score",
+            "type": "bar",
+            "barWidth": 30,
+            "barGap": "10%",
+            "itemStyle": {
+              "borderRadius": [
+                0,
+                5,
+                5,
+                0
+              ]
+            },
+            "label": {
+              "show": true,
+              "position": "insideRight",
+              "formatter": "{c}%",
+              "fontWeight": "bold"
+            },
+            "data": [
+              {
+                "value": 50,
+                "itemStyle": {
+                  "color": "#64B5F6"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Financial Performance\nMonitoring"
+              },
+              {
+                "value": 67,
+                "itemStyle": {
+                  "color": "#1E88E5"
+                },
+                "label": {
+                  "color": "#fff"
+                },
+                "name": "People Management"
+              },
+              {
+                "value": 100,
+                "itemStyle": {
+                  "color": "#0D47A1"
+                },
+                "label": {
+                  "color": "#fff"
+                },
+                "name": "Policies, Systems, Processes\nand Procedures Implementation"
+              },
+              {
+                "value": 145,
+                "itemStyle": {
+                  "color": "#2E7D32"
+                },
+                "label": {
+                  "color": "#fff"
+                },
+                "name": "Capital Management"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bar2": {
+      "type": "echarts@v5a",
+      "width": 848,
+      "height": 409,
+      "option": {
+        "grid": {
+          "top": 30,
+          "containLabel": true
+        },
+        "yAxis": {
+          "type": "category",
+          "data": [
+            "Financial Reporting",
+            "Financial Compliance",
+            "Financial Planning, Forecasting\nand Budgeting",
+            "Financial Risk Management",
+            "Fiscal Management"
+          ],
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "axisLabel": {
+            "fontFamily": "Arial",
+            "fontSize": 16,
+            "color": "#333",
+            "fontWeight": "bold"
+          }
+        },
+        "xAxis": {
+          "type": "value",
+          "max": 150,
+          "interval": 25,
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "splitLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#E0E0E0",
+              "type": "dashed"
+            }
+          },
+          "axisLabel": {
+            "formatter": "{value}%",
+            "color": "#333"
+          }
+        },
+        "series": [
+          {
+            "name": "Score",
+            "type": "bar",
+            "barWidth": 30,
+            "barGap": "10%",
+            "itemStyle": {
+              "borderRadius": [
+                0,
+                5,
+                5,
+                0
+              ]
+            },
+            "label": {
+              "show": true,
+              "position": "insideRight",
+              "formatter": "{c}%",
+              "fontWeight": "bold"
+            },
+            "data": [
+              {
+                "value": 23,
+                "itemStyle": {
+                  "color": "#BBDEFB"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Financial Reporting"
+              },
+              {
+                "value": 25,
+                "itemStyle": {
+                  "color": "#BBDEFB"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Financial Compliance"
+              },
+              {
+                "value": 25,
+                "itemStyle": {
+                  "color": "#BBDEFB"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Financial Planning, Forecasting\nand Budgeting"
+              },
+              {
+                "value": 25,
+                "itemStyle": {
+                  "color": "#BBDEFB"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Financial Risk Management"
+              },
+              {
+                "value": 45,
+                "itemStyle": {
+                  "color": "#64B5F6"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Fiscal Management"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "radar": {
+      "type": "echarts@v5a",
+      "width": 848,
+      "height": 409,
+      "option": {
+        "radar": [
+          {
+            "indicator": [
+              {
+                "text": "People Management",
+                "max": 100
+              },
+              {
+                "text": "Fiscal Management",
+                "max": 100
+              },
+              {
+                "text": "Financial Reporting",
+                "max": 100
+              },
+              {
+                "text": "Financial Compliance",
+                "max": 100
+              },
+              {
+                "text": "Financial Planning, Forecasting\nand Budgeting",
+                "max": 100
+              },
+              {
+                "text": "Financial Performance\nMonitoring",
+                "max": 100
+              },
+              {
+                "text": "Financial Risk Management",
+                "max": 100
+              },
+              {
+                "text": "Policies, Systems, Processes\nand Procedures Implementation",
+                "max": 100
+              },
+              {
+                "text": "Capital Management",
+                "max": 100
+              }
+            ],
+            "splitNumber": 4,
+            "shape": "polygon",
+            "axisName": {
+              "color": "#1B384D",
+              "fontSize": 15
+            },
+            "splitArea": {
+              "areaStyle": {
+                "color": [
+                  "#FFFFFF",
+                  "#E1E9F5",
+                  "#FFFFFF",
+                  "#E1E9F5"
+                ]
+              }
+            },
+            "splitLine": {
+              "lineStyle": {
+                "color": "rgba(136, 136, 136, 1)",
+                "width": 1
+              }
+            },
+            "axisLine": {
+              "lineStyle": {
+                "color": "rgba(136, 136, 136, 1)"
+              }
+            }
+          }
+        ],
+        "series": [
+          {
+            "type": "radar",
+            "data": [
+              {
+                "value": [
+                  67,
+                  45,
+                  23,
+                  25,
+                  25,
+                  50,
+                  25,
+                  100,
+                  100
+                ],
+                "name": "Score",
+                "areaStyle": {
+                  "color": "rgba(76, 175, 80, 0.2)"
+                },
+                "lineStyle": {
+                  "color": "rgba(76, 175, 80, 0.7)"
+                },
+                "symbol": "circle",
+                "symbolSize": 5,
+                "itemStyle": {
+                  "color": "rgba(76, 175, 80, 0.7)"
+                },
+                "label": {
+                  "show": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "competencies1": [
+      {
+        "name": "Risk Management and Business Continuity",
+        "score": 0.75,
+        "level": 3,
+        "expected": 3
+      },
+      {
+        "name": "Strategy Formulation, Implementation and Planning",
+        "score": 0.75,
+        "level": 4,
+        "expected": 3
+      },
+      {
+        "name": "Talent Acquisition",
+        "score": 0,
+        "level": 1,
+        "expected": 3
+      },
+      {
+        "name": "Project Management",
+        "score": 0.75,
+        "level": 5,
+        "expected": 3
+      },
+      {
+        "name": "Budgeting and Financial Management",
+        "score": 0.75,
+        "level": 2,
+        "expected": 3
+      },
+      {
+        "name": "Organizational Development",
+        "score": 1,
+        "level": 4,
+        "expected": 3
+      }
+    ],
+    "competencies2": [
+      {
+        "name": "Employee Relations Management",
+        "score": 0.25,
+        "level": 1,
+        "expected": 3
+      },
+      {
+        "name": "Talent Management",
+        "score": 0.5,
+        "level": 2,
+        "expected": 3
+      },
+      {
+        "name": "Policies, Systems, Processes and Procedures Implementation",
+        "score": 0.75,
+        "level": 3,
+        "expected": 4
+      },
+      {
+        "name": "Compensation and Benefits Management",
+        "score": 0.25,
+        "level": 1,
+        "expected": 4
+      },
+      {
+        "name": "Performance Management",
+        "score": 0.75,
+        "level": 3,
+        "expected": 4
+      },
+      {
+        "name": "Stakeholders Management",
+        "score": 0.25,
+        "level": 1,
+        "expected": 4
+      }
+    ]
+  },
+  "behavioral": {
+    "show": true,
+    "expected": false,
+    "behavioralLevel": 4,
+    "behavioralLevelName": "Expert",
+    "behavioralScore": 93,
+    "competencies": [
+      {
+        "name": "Behavioral for Business",
+        "score": 0.03,
+        "level": 1,
+        "expected": 2
+      },
+      {
+        "name": "Behavioral for Business2",
+        "score": 0.3,
+        "level": 2,
+        "expected": 2
+      },
+      {
+        "name": "Behavioral for Business3",
+        "score": 0.83,
+        "level": 3,
+        "expected": 2
+      },
+      {
+        "name": "Behavioral for Business4",
+        "score": 0.63,
+        "level": 1,
+        "expected": 2
+      }
+    ],
+    "bar": {
+      "type": "echarts@v5a",
+      "width": 848,
+      "height": 409,
+      "option": {
+        "grid": {
+          "top": 30,
+          "containLabel": true
+        },
+        "yAxis": {
+          "type": "category",
+          "data": [
+            "Innovation",
+            "Customer Focus",
+            "Adaptability",
+            "Accountability",
+            "Collaboration"
+          ],
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "axisLabel": {
+            "fontFamily": "Arial",
+            "fontSize": 16,
+            "color": "#333",
+            "fontWeight": "bold"
+          }
+        },
+        "xAxis": {
+          "type": "value",
+          "max": 100,
+          "interval": 25,
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "splitLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#E0E0E0",
+              "type": "dashed"
+            }
+          },
+          "axisLabel": {
+            "formatter": "{value}%",
+            "color": "#333"
+          }
+        },
+        "series": [
+          {
+            "name": "Score",
+            "type": "bar",
+            "barWidth": 30,
+            "barGap": "10%",
+            "itemStyle": {
+              "borderRadius": [
+                0,
+                5,
+                5,
+                0
+              ]
+            },
+            "label": {
+              "show": true,
+              "position": "insideRight",
+              "formatter": "{c}%",
+              "fontWeight": "bold"
+            },
+            "data": [
+              {
+                "value": 25,
+                "itemStyle": {
+                  "color": "#BBDEFB"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Innovation"
+              },
+              {
+                "value": 25,
+                "itemStyle": {
+                  "color": "#BBDEFB"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Customer Focus"
+              },
+              {
+                "value": 50,
+                "itemStyle": {
+                  "color": "#64B5F6"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Adaptability"
+              },
+              {
+                "value": 75,
+                "itemStyle": {
+                  "color": "#1E88E5"
+                },
+                "label": {
+                  "color": "#fff"
+                },
+                "name": "Accountability"
+              },
+              {
+                "value": 100,
+                "itemStyle": {
+                  "color": "#0D47A1"
+                },
+                "label": {
+                  "color": "#fff"
+                },
+                "name": "Collaboration"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "radar": {
+      "type": "echarts@v5a",
+      "width": 848,
+      "height": 409,
+      "option": {
+        "radar": [
+          {
+            "indicator": [
+              {
+                "text": "Accountability",
+                "max": 100
+              },
+              {
+                "text": "Collaboration",
+                "max": 100
+              },
+              {
+                "text": "Innovation",
+                "max": 100
+              },
+              {
+                "text": "Adaptability",
+                "max": 100
+              },
+              {
+                "text": "Customer Focus",
+                "max": 100
+              }
+            ],
+            "splitNumber": 4,
+            "shape": "polygon",
+            "axisName": {
+              "color": "#1B384D",
+              "fontSize": 15
+            },
+            "splitArea": {
+              "areaStyle": {
+                "color": [
+                  "#FFFFFF",
+                  "#E1E9F5",
+                  "#FFFFFF",
+                  "#E1E9F5"
+                ]
+              }
+            },
+            "splitLine": {
+              "lineStyle": {
+                "color": "rgba(136, 136, 136, 1)",
+                "width": 1
+              }
+            },
+            "axisLine": {
+              "lineStyle": {
+                "color": "rgba(136, 136, 136, 1)"
+              }
+            }
+          }
+        ],
+        "series": [
+          {
+            "type": "radar",
+            "data": [
+              {
+                "value": [
+                  75,
+                  100,
+                  25,
+                  50,
+                  25
+                ],
+                "name": "Score",
+                "areaStyle": {
+                  "color": "rgba(76, 175, 80, 0.2)"
+                },
+                "lineStyle": {
+                  "color": "rgba(76, 175, 80, 0.7)"
+                },
+                "symbol": "circle",
+                "symbolSize": 5,
+                "itemStyle": {
+                  "color": "rgba(76, 175, 80, 0.7)"
+                },
+                "label": {
+                  "show": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "leadership": {
+    "show": true,
+    "expected": false,
+    "leadershipLevel": 3,
+    "leadershipLevelName": "Advanced",
+    "leadershipScore": 73,
+    "competencies": [
+      {
+        "name": "Financial Acumen",
+        "score": 0,
+        "level": 4,
+        "expected": 4
+      },
+      {
+        "name": "Decision Making",
+        "score": 0,
+        "level": 4,
+        "expected": 3
+      },
+      {
+        "name": "Strategic Mindset",
+        "score": 0.5,
+        "level": 2,
+        "expected": 3
+      },
+      {
+        "name": "Business Insight",
+        "score": 0.5,
+        "level": 4,
+        "expected": 3
+      },
+      {
+        "name": "Building Effective Teams",
+        "score": 0.5,
+        "level": 4,
+        "expected": 3
+      }
+    ],
+    "bar": {
+      "type": "echarts@v5a",
+      "width": 848,
+      "height": 409,
+      "option": {
+        "grid": {
+          "top": 30,
+          "containLabel": true
+        },
+        "yAxis": {
+          "type": "category",
+          "data": [
+            "Building Effective Teams",
+            "Business Insight",
+            "Strategic Mindset",
+            "Decision Making",
+            "Financial Acumen"
+          ],
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "axisLabel": {
+            "fontFamily": "Arial",
+            "fontSize": 16,
+            "color": "#333",
+            "fontWeight": "bold"
+          }
+        },
+        "xAxis": {
+          "type": "value",
+          "max": 100,
+          "interval": 25,
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "splitLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#E0E0E0",
+              "type": "dashed"
+            }
+          },
+          "axisLabel": {
+            "formatter": "{value}%",
+            "color": "#333"
+          }
+        },
+        "series": [
+          {
+            "name": "Score",
+            "type": "bar",
+            "barWidth": 30,
+            "barGap": "10%",
+            "itemStyle": {
+              "borderRadius": [
+                0,
+                5,
+                5,
+                0
+              ]
+            },
+            "label": {
+              "show": true,
+              "position": "insideRight",
+              "formatter": "{c}%",
+              "fontWeight": "bold"
+            },
+            "data": [
+              {
+                "value": 25,
+                "itemStyle": {
+                  "color": "#BBDEFB"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Building Effective Teams"
+              },
+              {
+                "value": 25,
+                "itemStyle": {
+                  "color": "#BBDEFB"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Business Insight"
+              },
+              {
+                "value": 50,
+                "itemStyle": {
+                  "color": "#64B5F6"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Strategic Mindset"
+              },
+              {
+                "value": 50,
+                "itemStyle": {
+                  "color": "#64B5F6"
+                },
+                "label": {
+                  "color": "#000"
+                },
+                "name": "Decision Making"
+              },
+              {
+                "value": 75,
+                "itemStyle": {
+                  "color": "#1E88E5"
+                },
+                "label": {
+                  "color": "#fff"
+                },
+                "name": "Financial Acumen"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "radar": {
+      "type": "echarts@v5a",
+      "width": 848,
+      "height": 409,
+      "option": {
+        "radar": [
+          {
+            "indicator": [
+              {
+                "text": "Building Effective Teams",
+                "max": 100
+              },
+              {
+                "text": "Strategic Mindset",
+                "max": 100
+              },
+              {
+                "text": "Financial Acumen",
+                "max": 100
+              },
+              {
+                "text": "Decision Making",
+                "max": 100
+              },
+              {
+                "text": "Business Insight",
+                "max": 100
+              }
+            ],
+            "splitNumber": 4,
+            "shape": "polygon",
+            "axisName": {
+              "color": "#1B384D",
+              "fontSize": 15
+            },
+            "splitArea": {
+              "areaStyle": {
+                "color": [
+                  "#FFFFFF",
+                  "#E1E9F5",
+                  "#FFFFFF",
+                  "#E1E9F5"
+                ]
+              }
+            },
+            "splitLine": {
+              "lineStyle": {
+                "color": "rgba(136, 136, 136, 1)",
+                "width": 1
+              }
+            },
+            "axisLine": {
+              "lineStyle": {
+                "color": "rgba(136, 136, 136, 1)"
+              }
+            }
+          }
+        ],
+        "series": [
+          {
+            "type": "radar",
+            "data": [
+              {
+                "value": [
+                  25,
+                  50,
+                  75,
+                  50,
+                  25
+                ],
+                "name": "Score",
+                "areaStyle": {
+                  "color": "rgba(76, 175, 80, 0.2)"
+                },
+                "lineStyle": {
+                  "color": "rgba(76, 175, 80, 0.7)"
+                },
+                "symbol": "circle",
+                "symbolSize": 5,
+                "itemStyle": {
+                  "color": "rgba(76, 175, 80, 0.7)"
+                },
+                "label": {
+                  "show": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "personality": {
+    "show": true,
+    "provider": "Hogan Personality Inventory (HPI)",
+    "personalityScore": 80,
+    "personalityScale": [
+      {
+        "name": "Adjustment",
+        "score": 0.97
+      },
+      {
+        "name": "Ambition",
+        "score": 0.92
+      },
+      {
+        "name": "Sociability",
+        "score": 0.19
+      },
+      {
+        "name": "Interpersonal Sensitivity",
+        "score": 0.93
+      },
+      {
+        "name": "Prudence",
+        "score": 0.95
+      },
+      {
+        "name": "Inquisitive",
+        "score": 0.95
+      },
+      {
+        "name": "Learning Approach",
+        "score": 0.99
+      }
+    ],
+    "bar": {
+      "type": "echarts@v5a",
+      "option": {
+        "grid": {
+          "left": "5%",
+          "right": "5%",
+          "bottom": "30%",
+          "top": "10%",
+          "containLabel": true
+        },
+        "xAxis": {
+          "type": "category",
+          "data": [
+            "Learning\nApproach",
+            "Adjustment",
+            "Prudence",
+            "Inquisitive",
+            "Interpersonal\nSensitivity",
+            "Ambition",
+            "Sociability"
+          ],
+          "axisLabel": {
+            "color": "#1B384D",
+            "fontSize": 9,
+            "fontFamily": "Arial"
+          },
+          "axisLine": {
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          }
+        },
+        "yAxis": {
+          "type": "value",
+          "max": 100,
+          "interval": 25,
+          "axisLabel": {
+            "formatter": "{value}%",
+            "color": "#1B384D",
+            "fontSize": 9,
+            "fontFamily": "Arial"
+          },
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "splitLine": {
+            "lineStyle": {
+              "color": "#E0E0E0"
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Score",
+            "type": "bar",
+            "data": [
+              {
+                "value": 99,
+                "itemStyle": {
+                  "color": "#0D47A1"
+                },
+                "label": {
+                  "color": "#FFFFFF"
+                }
+              },
+              {
+                "value": 97,
+                "itemStyle": {
+                  "color": "#0D47A1"
+                },
+                "label": {
+                  "color": "#FFFFFF"
+                }
+              },
+              {
+                "value": 95,
+                "itemStyle": {
+                  "color": "#0D47A1"
+                },
+                "label": {
+                  "color": "#FFFFFF"
+                }
+              },
+              {
+                "value": 95,
+                "itemStyle": {
+                  "color": "#0D47A1"
+                },
+                "label": {
+                  "color": "#FFFFFF"
+                }
+              },
+              {
+                "value": 93,
+                "itemStyle": {
+                  "color": "#0D47A1"
+                },
+                "label": {
+                  "color": "#FFFFFF"
+                }
+              },
+              {
+                "value": 92,
+                "itemStyle": {
+                  "color": "#0D47A1"
+                },
+                "label": {
+                  "color": "#FFFFFF"
+                }
+              },
+              {
+                "value": 19,
+                "itemStyle": {
+                  "color": "#BBDEFB"
+                },
+                "label": {
+                  "color": "#000000"
+                }
+              }
+            ],
+            "barWidth": 40,
+            "itemStyle": {
+              "borderRadius": [
+                5,
+                5,
+                0,
+                0
+              ]
+            },
+            "label": {
+              "show": true,
+              "position": "inside",
+              "formatter": "{c}%",
+              "fontWeight": "bold",
+              "fontSize": 13
+            }
+          }
+        ]
+      }
+    },
+    "professionalScale": {
+      "serviceOrientation": 96,
+      "stressTolerance": 98,
+      "reliability": 90,
+      "clericalPotential": 95,
+      "salesPotential": 64,
+      "managerialPotential": 96
+    }
+  },
+  "cognitive": {
+    "show": true,
+    "provider": "Hogan Business Reasoning Inventory (HBRI)",
+    "cognitiveScore": 86,
+    "level": "Low",
+    "style": "Contextual",
+    "quantitativeReasoning": 100,
+    "qualitativeReasoning": 75,
+    "businessReasoning": 83
+  },
+  "interview": {
+    "show": true,
+    "score": 85,
+    "toneOfCommunication": 62,
+    "articulation": 89,
+    "pronunciation": 79,
+    "posture": 99,
+    "messageRelevance": 81,
+    "insights": [
+      {
+        "name": "Tone of Communication",
+        "score": 0.62
+      },
+      {
+        "name": "Articulation",
+        "score": 0.89
+      },
+      {
+        "name": "Pronunciation",
+        "score": 0.79
+      },
+      {
+        "name": "Posture",
+        "score": 0.99
+      },
+      {
+        "name": "Message Relevance",
+        "score": 0.81
+      }
+    ],
+    "emotion": "disgust",
+    "bar": {
+      "type": "echarts@v5a",
+      "width": 848,
+      "height": 409,
+      "option": {
+        "grid": {
+          "left": 300,
+          "right": 40,
+          "top": 5,
+          "bottom": 40,
+          "containLabel": true
+        },
+        "xAxis": {
+          "type": "value",
+          "max": 100,
+          "interval": 25,
+          "axisLabel": {
+            "formatter": "{value}%",
+            "color": "#333"
+          },
+          "axisLine": {
+            "show": true,
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "splitLine": {
+            "lineStyle": {
+              "color": "#E0E0E0",
+              "type": "dashed"
+            }
+          }
+        },
+        "yAxis": {
+          "type": "category",
+          "data": [
+            "Pronunciation",
+            "Articulation",
+            "Posture",
+            "Pitch Volume",
+            "Message Relevance"
+          ],
+          "axisLine": {
+            "lineStyle": {
+              "color": "#A0A0A0"
+            }
+          },
+          "axisLabel": {
+            "fontSize": 14,
+            "color": "#333"
+          }
+        },
+        "series": [
+          {
+            "name": "Score",
+            "type": "bar",
+            "data": [
+              {
+                "value": 49,
+                "itemStyle": {
+                  "color": "#64B5F6"
+                },
+                "label": {
+                  "color": "#000"
+                }
+              },
+              {
+                "value": 55,
+                "itemStyle": {
+                  "color": "#1E88E5"
+                },
+                "label": {
+                  "color": "#fff"
+                }
+              },
+              {
+                "value": 68,
+                "itemStyle": {
+                  "color": "#1E88E5"
+                },
+                "label": {
+                  "color": "#fff"
+                }
+              },
+              {
+                "value": 73,
+                "itemStyle": {
+                  "color": "#1E88E5"
+                },
+                "label": {
+                  "color": "#fff"
+                }
+              },
+              {
+                "value": 80,
+                "itemStyle": {
+                  "color": "#0D47A1"
+                },
+                "label": {
+                  "color": "#fff"
+                }
+              }
+            ],
+            "barWidth": 30,
+            "itemStyle": {
+              "borderRadius": [
+                0,
+                5,
+                5,
+                0
+              ]
+            },
+            "label": {
+              "show": true,
+              "position": "insideRight",
+              "formatter": "{c}%",
+              "fontWeight": "bold",
+              "fontSize": 13
+            }
+          }
+        ]
+      }
+    }
+  },
+  "willness": {
+    "show": true,
+    "n": 4,
+    "mark": {
+      "1": "Low Skill / Low Will",
+      "2": "High Skill / Low Will",
+      "3": "Low Skill / High Will",
+      "4": "High Skill / High Will"
+    },
+    "grade": {
+      "1": "Direct",
+      "2": "Excite",
+      "3": "Guide",
+      "4": "Delegate"
+    }
+  },
+  "performance": {
+    "show": true,
+    "n": 5,
+    "performanceGrade": "High",
+    "potentialGrade": "High",
+    "category": "Outstanding Leader"
+    "grade": {
+      "1": "Underperformer",
+      "2": "Sound Contributor",
+      "3": "Seasoned Professional",
+      "4": "Marginal Contributor",
+      "5": "Solid Contributor",
+      "6": "Stretch Potential",
+      "7": "Long-Term Potential",
+      "8": "Future Leader",
+      "9": "Outstanding Leader"
+    }
+  },
+  "idp": {
+    "show": true,
+    "developmentArea": {
+      "technical": [
+        "Stakeholders Management",
+        "Compensation and Benefits Management",
+        "Employee Relations Management",
+        "Talent Acquisition"
+      ],
+      "behavioral": [
+        "Behavioral for Business",
+        "Behavioral for Business2"
+      ],
+      "leadership": [
+        "Decision Making",
+        "Financial Acumen"
+      ]
+    },
+    "developmentActions": {
+      "experiences": [
+        "Experience 1",
+        "Experience 2",
+        "Experience 3"
+      ],
+      "exposures": [
+        "Exposure 1",
+        "Exposure 2",
+        "Exposure 3"
+      ]
+    },
+    "time": {
+      "Q1": [
+        "1.1",
+        "2.1",
+        "3.1",
+        "3.2"
+      ],
+      "Q2": [
+        "1.2",
+        "3.2",
+        "3.3",
+        "2.2"
+      ],
+      "Q3": [
+        "1.3",
+        "2.3",
+        "3.4",
+        "3.5"
+      ],
+      "Q4": [
+        "1.3",
+        "2.3",
+        "3.6"
+      ]
+    },
+    "recommendedLearningChannels": [
+      "In-class training",
+      "Online training",
+      "On the job training",
+      "Practical projects"
+    ],
+    "developmentCatalyzers": [
+      "A dedicated training budget",
+      "An alignment of the training with my self-interest",
+      "Defined career growth opportunities"
+    ],
+    "recommendedDevelopmentEnablers": [
+      "Attending professional conferences",
+      "Leading a knowledge transfer initiative",
+      "Mentoring junior colleagues",
+      "Joining communities of practice (CoE)"
+    ],
+    "developmentRoadmap": [
+      {
+        "name": "Certified Information Security Manager",
+        "level": 1
+      },
+      {
+        "name": "Certified Threat Intelligence Analyst",
+        "level": 4
+      },
+      {
+        "name": "Certified in Risk and Information Systems Control (CRISC)",
+        "level": 5
+      }
+    ]
+  },
+  "lvl": {
+    "blue": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAABgCAMAAAB8O9ryAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAzUExURQAAACtedylbeChceChceChceChbeChceClddyhceClcdihdeSlceChceClceShdeChbd7szAvYAAAARdFJOUwAeaq7I4fv/WMdFvneZ//+aQ7JEUQAAAAlwSFlzAAAywAAAMsABKGRa2wAAAZFJREFUeF7t3ctygkAYBeHhflPx/Z9WRv7SYGUD08v+VhOSVVdRaBac9EdVN23XDzqh79qmriLg0TjF3+i0aYyIX/MSv9Mlyxwhwy2u67JbpHy7bxce+3Vd8ViH4RkxN8+4rCL3yOn9Tom7fo4fVWx/Mvl8xyy55+jzCLJlzJ9H/TwPmrbvm3EUokp1nISoUxMnIZrUxkmINnVxEqJL/v8T1ac4CGJQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmEFhBoUZFGZQmK+7ZPW+kJXV+cpgVutLrVmNr11n1Q4DsCqnK1CT4yqgGFdx/oey7vM/DlRxYjrRCTXIZzgxjyaq2HE2cfXJVCDH+4wmZt71xQ5DqU75lvqd8t04Nn3dP2PTmXPo5/3Moaf0AiWjbPZlcOvhAAAAAElFTkSuQmCC",
+    "gray": "data:image/png;base64,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",
+    "white": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVAAAABgBAMAAAC5yzfzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAtUExURQAAAP///////////////////////////////////////////////////////6FIq5sAAAAPdFJOUwAeaq7I4fv/WMdFvneZmk7J020AAAAJcEhZcwAAMsAAADLAAShkWtsAAAEfSURBVHja7dsvbgJxFMTxhwMCBMcBKuoxnID0AiQcAQ1td8Lf7BHqsDiOUFuHxdXWcQ22u21F9Yg3yXxO8DX7y4o3UWs9TBdIqZiNh/GnfURi6/K3s/uO1Lann9ALkts1nX2k91WH3pDe/ruzBwEfVegZAjZVaPJPvrGt3lBIKKMDCW8xgoRlPELCKiaQ8BxPkPASc0h4jaT/of8VAREOZXMom0PZHMrmUDaHsjmUzaFsDmVzKJtD2RzK5lA2h7I5lM2hbA5lcyibQ9kcyuZQNoeyOZTNoWwOZXMom0PZHMrmUDaHsumEypxlyhy6ypwOyxxjy5y3ywwGZCYYMqMWmZmQzvBKZsoWn0jvUK8YB0jvqjVg1ZkEy4ysBWbrEXdHWxtsBMMilgAAAABJRU5ErkJggg=="
+  },
+  "AI": {
+    "green": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAABtCAMAAAAs0Kw6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABFUExURQAAAFWqK0+oLk6oLk6mLk6nLk6nLk6nLk+lLk6nLU6nL06oL06mLk2mLk6nL02oME6nLk2kK06oLU6nLk6oL06mLk6oLoIfKnUAAAAUdFJOUwASXqG71O7/XmW6Usy1/zXXNVX5heKxiAAAAAlwSFlzAAAywAAAMsABKGRa2wAAAetJREFUeF7t3ct2gkAUBdFGwLcRNcn/f2poueIz0DWvPUlHMqq1UOPAk55Ui7pplyv1lm1Tr6sI826zjb/TaLuJOM92+7iuJ/tdBLqrDnHtK35qdHi5GY9dXNAH3SkyXZ0v/UPfwxW9u5wjVO+UW/0Mj+tVDnM5RqpUeQ/O6m7PW7fndk04DK12/dF7cFLOM7yD8P3VvP7Fb59bbfrz7/CQpuT38v6PU2jbvxTGUbOqtI6TZi1SHSfNqlMTJ037Wq2a1MYvmtUmPxcttkxxUAFjAcYCjAUYCzAWYCzAWICxAGMBxgKMBRgLMBZgLMBYgLEAYwHGAowFGAswFmAswFiAsQBjAcYCjAUYCzAWYCzAWICxAGMBxgKMBRgLMBZgLMBYgLEAYwHGAowFGAswFmAswFiAsQBjAcYCjAUYCzAWYCzAWICxAGMBxgKMBRgLMBZgLMBYgLEAYwHGAowFGAswFmAswO8pLbf0G3DLtfm7ld0lKtP4rd3l6rSIk2atXRooV7lhUWwb6yjOhBW4Lh3unZIpcd3dcdFp3n3Rya2wErEV5gpdgXGFLh3dN5yQw1wetjNdzpz2uJyZ0sk7cUI37mYOxrVfjW4fMLyu/fbckf7sw4505kL5u38WyrNq7fb9Td6+XzzegCn9AU/3eNhcG4HgAAAAAElFTkSuQmCC",
+    "white": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAABtCAMAAAAs0Kw6AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAzUExURQAAAP///////////////////////////////////////////////////////////////7eV4oIAAAARdFJOUwASXqG71O7/ZbpSzLU111X5jhcdmwAAAAlwSFlzAAAywAAAMsABKGRa2wAAAbVJREFUeF7t3ctWwkAUBdHOU8L7/7/WBK5gTKRvzWuPGuOolmB0kFNWmrbrh/FLs3Hou7aJMFuHKb5PL9Mh4qwdT3FdK6djBHprznFNG+c/b8bLNS5ox/USmR5u9/iydt1vEWp2sVXF/fWz1fgerLr+fG752Z5wfrY6xkt99LyD8P4q5bS0OsQLVSz38v6NkzTNvwrjqKqmtHFSVVu6OKmqK32cVNWXIU6qGor/F00bSxyUYCzAWICxAGMBxgKMBRgLMBZgLMBYgLEAYwHGAowFGAswFmAswFiAsQBjAcYCjAUYCzAWYCzAWICxAGMBxgKMBRgLMBZgLMBYgLEAYwHGAowFGAswFmAswFiAsQBjAcYCjAUYCzAWYCzAWICxAGMBxgKMBRgLMBZgLMBYgLEAYwHGAowFGAswFmAswFiAsQBjAcYCjAX4nNK80Sfg5g0+Wzmv96ndeZ3Pg89rXRrIa9ywSJtcR8l7LB26u5Py2N1x0SknNiHdCkuIrTBX6BJeK3TuG1a99w1dzqz5vZzpJutn601W134/+bv2O3NHet/OjvTChfKtfxbKF27fv22270v5BpDld26HnPsEAAAAAElFTkSuQmCC"
+  },
+  "will": {
+    "gray": "data:image/png;base64,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",
+    "red": "data:image/png;base64,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",
+    "yellow": "data:image/png;base64,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",
+    "green": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABD0AAAJWBAMAAACpOeHoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAPUExURQAAACiHTCqFSimHSyqHS6h2lu8AAAAEdFJOUwBAgL+jVN0MAAAACXBIWXMAADLAAAAywAEoZFrbAAAGl0lEQVR42u3a4XkaVxBA0SfZBawcF0AUF4CFCxBi+68pBEuKELvX/OecGu63M/NgLHv4Z/dr5lbsnh6ncbW7v7Rxe142V+ahjhv1NF318Zi5VX/+hNz5eNyyR3lQHuVBeZIHJXaQHzOsBuJy4eiwNl1mOHoxXSiLE+bLDCdLE8btwrvtZR/fZ3gzWU4Je58PyucPyAwf7B0vhE8njOOFc2cnzP0MZ84eUT2d8tlkOyXsbaeEg/FC2RgvhL3rhXAwXiiTxzHC1ngh7PVBOFg/KJM+CFuvH4S99YNw6uPrDItOC6p/nrJmsp4Stl5PCVvnC2HvfCHog3Jw3hL0QfL8QZk8fxD0Qdnog7D1fErQB0UflK2fXwjP+iDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPij4o+qDog6IPyvP4NcOarT4I+qDog7IZP2ZYsxnfZ1ijD8o0vs6wZowvM6zRB+FljLsZVuiD8jyGBzJWbfVB2Bz78ADCmmk4YFh3zMOCypoXfRD+O18sqKzZnPqwoLLsdx8WVBad1g8LCCte+7CAsGj72ocFhCWb1z4sICx4Gy8WEJY8v/XhP+ws2Lz3YcBw4fCehwHDpf/HiwuGS5sPfdzPcOZlfOSJjHPbsz5sqJw5nOVhQ+Xc83kfNlTOTMMHhFX7MXxAWDVd9OGE4d3PyzycMLw5jCV+peO3zWIfHlE52Y9lJgxHh2mlDxOGeW26CISTn+t5jHtH7q2rPI6B+ILcts5DIDfuT3nYQW7Z4WFc4Zsl5DbtpnGdx5mbs3sY1/v2uPMVuR273d+L344x/gUFGqNCI8Eg4AAAAABJRU5ErkJggg=="
+  },
+  "perf": {
+    "gray": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAAEVBAMAAAAIlm0RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAPUExURQAAAO/v7/Ly8vLy8vHx8cRex8AAAAAFdFJOUwBAv/+A6eGZ8wAAAAlwSFlzAAAywAAAMsABKGRa2wAAA0NJREFUeNrt2YtRG0EQQMEVEIBcOAAVOADQKgDZ5J+T+RnLGGlfAN0xvJrZuRsfvt1NOPHj5/hscz/hk8NWJawdjiph7XCaydOEL510cjXhjL9rx8rhrL1hQrAzTFh7Hyc3Ey7YOXNYezt2Jly0tXNY29k5rD3KhLXnW2czYWHracLablxPWHgYtxMWHr1gWZMJwd5/P9b2PtUTyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRCM+wkLe5mwdhi3ExZkQvA4ricsPIyrCQvHsZmwsB1OHVYOY3jDsvKSiccJC8fnTDxOWBgvniZccHjNxNbhouNrJm4dLtm/VWKccMnuPRPjhPP+DJMxbiac8TFMHDucdRhDJyzst6eZ3OiEL/xbyRgbnfCfz5U8+/5rwom7b+9pjPEbIpNkF3husqQAAAAASUVORK5CYII=",
+    "red": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAAEVBAMAAAAIlm0RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAPUExURQAAANtYWN5ZWd5ZWd1YWBPOaqQAAAAFdFJOUwBAv/+A6eGZ8wAAAAlwSFlzAAAywAAAMsABKGRa2wAAA0NJREFUeNrt2YtRG0EQQMEVEIBcOAAVOADQKgDZ5J+T+RnLGGlfAN0xvJrZuRsfvt1NOPHj5/hscz/hk8NWJawdjiph7XCaydOEL510cjXhjL9rx8rhrL1hQrAzTFh7Hyc3Ey7YOXNYezt2Jly0tXNY29k5rD3KhLXnW2czYWHracLablxPWHgYtxMWHr1gWZMJwd5/P9b2PtUTyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRCM+wkLe5mwdhi3ExZkQvA4ricsPIyrCQvHsZmwsB1OHVYOY3jDsvKSiccJC8fnTDxOWBgvniZccHjNxNbhouNrJm4dLtm/VWKccMnuPRPjhPP+DJMxbiac8TFMHDucdRhDJyzst6eZ3OiEL/xbyRgbnfCfz5U8+/5rwom7b+9pjPEbIpNkF3husqQAAAAASUVORK5CYII=",
+    "yellowWhite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAAEVBAMAAAAIlm0RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAPUExURQAAAP/zg//zhv/zhf/xg0EwFG4AAAAFdFJOUwBAv/+A6eGZ8wAAAAlwSFlzAAAywAAAMsABKGRa2wAAA0NJREFUeNrt2YtRG0EQQMEVEIBcOAAVOADQKgDZ5J+T+RnLGGlfAN0xvJrZuRsfvt1NOPHj5/hscz/hk8NWJawdjiph7XCaydOEL510cjXhjL9rx8rhrL1hQrAzTFh7Hyc3Ey7YOXNYezt2Jly0tXNY29k5rD3KhLXnW2czYWHracLablxPWHgYtxMWHr1gWZMJwd5/P9b2PtUTyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRCM+wkLe5mwdhi3ExZkQvA4ricsPIyrCQvHsZmwsB1OHVYOY3jDsvKSiccJC8fnTDxOWBgvniZccHjNxNbhouNrJm4dLtm/VWKccMnuPRPjhPP+DJMxbiac8TFMHDucdRhDJyzst6eZ3OiEL/xbyRgbnfCfz5U8+/5rwom7b+9pjPEbIpNkF3husqQAAAAASUVORK5CYII=",
+    "yellowDark": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAAEVBAMAAAAIlm0RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAPUExURQAAAP/PTP/QS//QS//PSoNJru8AAAAFdFJOUwBAv/+A6eGZ8wAAAAlwSFlzAAAywAAAMsABKGRa2wAAA0NJREFUeNrt2YtRG0EQQMEVEIBcOAAVOADQKgDZ5J+T+RnLGGlfAN0xvJrZuRsfvt1NOPHj5/hscz/hk8NWJawdjiph7XCaydOEL510cjXhjL9rx8rhrL1hQrAzTFh7Hyc3Ey7YOXNYezt2Jly0tXNY29k5rD3KhLXnW2czYWHracLablxPWHgYtxMWHr1gWZMJwd5/P9b2PtUTyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRCM+wkLe5mwdhi3ExZkQvA4ricsPIyrCQvHsZmwsB1OHVYOY3jDsvKSiccJC8fnTDxOWBgvniZccHjNxNbhouNrJm4dLtm/VWKccMnuPRPjhPP+DJMxbiac8TFMHDucdRhDJyzst6eZ3OiEL/xbyRgbnfCfz5U8+/5rwom7b+9pjPEbIpNkF3husqQAAAAASUVORK5CYII=",
+    "greenWhite": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAAEVBAMAAAAIlm0RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAPUExURQAAALfbj7rbkrrbkbnZjy2Y8CsAAAAFdFJOUwBAv/+A6eGZ8wAAAAlwSFlzAAAywAAAMsABKGRa2wAAA0NJREFUeNrt2YtRG0EQQMEVEIBcOAAVOADQKgDZ5J+T+RnLGGlfAN0xvJrZuRsfvt1NOPHj5/hscz/hk8NWJawdjiph7XCaydOEL510cjXhjL9rx8rhrL1hQrAzTFh7Hyc3Ey7YOXNYezt2Jly0tXNY29k5rD3KhLXnW2czYWHracLablxPWHgYtxMWHr1gWZMJwd5/P9b2PtUTyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRCM+wkLe5mwdhi3ExZkQvA4ricsPIyrCQvHsZmwsB1OHVYOY3jDsvKSiccJC8fnTDxOWBgvniZccHjNxNbhouNrJm4dLtm/VWKccMnuPRPjhPP+DJMxbiac8TFMHDucdRhDJyzst6eZ3OiEL/xbyRgbnfCfz5U8+/5rwom7b+9pjPEbIpNkF3husqQAAAAASUVORK5CYII=",
+    "greenDark": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEwAAAEVBAMAAAAIlm0RAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAPUExURQAAACiHTCmHSyqHSyqFSrYMhlkAAAAFdFJOUwBAv/+A6eGZ8wAAAAlwSFlzAAAywAAAMsABKGRa2wAAA0NJREFUeNrt2YtRG0EQQMEVEIBcOAAVOADQKgDZ5J+T+RnLGGlfAN0xvJrZuRsfvt1NOPHj5/hscz/hk8NWJawdjiph7XCaydOEL510cjXhjL9rx8rhrL1hQrAzTFh7Hyc3Ey7YOXNYezt2Jly0tXNY29k5rD3KhLXnW2czYWHracLablxPWHgYtxMWHr1gWZMJwd5/P9b2PtUTyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRDIhEAmBDIhkAmBTAhkQiATApkQyIRAJgQyIZAJgUwIZEIgEwKZEMiEQCYEMiGQCYFMCGRCIBMCmRCM+wkLe5mwdhi3ExZkQvA4ricsPIyrCQvHsZmwsB1OHVYOY3jDsvKSiccJC8fnTDxOWBgvniZccHjNxNbhouNrJm4dLtm/VWKccMnuPRPjhPP+DJMxbiac8TFMHDucdRhDJyzst6eZ3OiEL/xbyRgbnfCfz5U8+/5rwom7b+9pjPEbIpNkF3husqQAAAAASUVORK5CYII="
+  }
+}

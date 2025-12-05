@@ -20,3 +20,29 @@
     at Object.start (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-express\lib\main.js:125:13)
     at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-express\lib\main.js:333:30)
     at async ListenerCollection.fire (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\listenerCollection.js:157:21)
+2025-12-05T19:14:41.033Z - error: Report render failed
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires width parameter to be valid number with unit (cm or px). got 3in
+Error: pptxImage helper requires width parameter to be valid number with unit (cm or px). got 3in
+    at String.pptxImage (system-helpers.js:2335:11)
+    at String.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:446:23)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:23
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at String.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:423:37)
+    at String.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at 1 (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:11:138)
+    at Object.prog (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:268:12)
+    at Object.<anonymous> (sandbox.js:122:23)
+wrapped by:
+Error: "pptxImage" helper call failed
+(because) pptxImage helper requires width parameter to be valid number with unit (cm or px). got 3in
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at String.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:448:15)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:23
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at String.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:423:37)
+    at String.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at 1 (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:11:138)
+    at Object.prog (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:268:12) rootId=m206qf86vg2d7r8, id=m206qf86vg2d7r8

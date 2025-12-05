@@ -9,6 +9,8 @@
     "entryPoint": "server.js"
   },
   "dependencies": {
-    "jsreport": "^4.10.1"
+    "jsreport": "^4.10.1",
+    "sharp": "^0.34.5",
+    "svg2img": "^1.0.0-beta.2"
   }
 }

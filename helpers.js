@@ -1,3 +1,5 @@
+
+
 Handlebars.registerHelper('gt', function (a, b) {
   return a > b;
 });
@@ -46,3 +48,19 @@ Handlebars.registerHelper('get', function(name, options) {
   }
   return root[name];
 });
+
+
+handlebars.registerHelper('ternary', function(condition, trueValue, falseValue) {
+    return condition ? trueValue : falseValue;
+});
+
+
+Handlebars.registerHelper('firstCharUpper', function(str) {
+  if (typeof str !== 'string' || str.length === 0) {
+    return str; // return as-is if not a string or empty
+  }
+  return str.charAt(0).toUpperCase() + str.slice(1);
+});
+
+
+
