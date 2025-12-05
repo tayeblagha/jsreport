@@ -35,6 +35,12 @@
         "password": "password"
       },
       "enabled": false
-    }
+    },
+    "assets": {
+    "allowedFiles": "**/**",
+    "searchOnDiskIfNotFoundInStore": false,
+   
+    "publicAccessEnabled": true
+  }
   }
 }

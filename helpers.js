@@ -63,4 +63,18 @@ Handlebars.registerHelper('firstCharUpper', function(str) {
 });
 
 
+Handlebars.registerHelper('getChartImageDataURI', function() {
+  // Assuming your images are in the "static" folder or similar
+  const imagePath = path.resolve(process.cwd(), 'chartPercentage', '1.png');
+  
+  if (!fs.existsSync(imagePath)) {
+    console.error(`Image not found: ${imagePath}`);
+    return '';
+  }
+  
+  const imageBuffer = fs.readFileSync(imagePath);
+  const base64 = imageBuffer.toString('base64');
+  return `data:image/png;base64,${base64}`;
+});
+
 

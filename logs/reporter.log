@@ -7218,3 +7218,1960 @@ Error: Error while executing pptx recipe
     at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
     at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=ubaea8ypkeom3ao, id=ubaea8ypkeom3ao
 2025-12-05T19:25:28.252Z - warn: Rendering request 3 finished with error in 1255 ms rootId=ubaea8ypkeom3ao, id=ubaea8ypkeom3ao
+2025-12-05T21:39:18.940Z - info: Initializing jsreport (version: 4.10.1, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-12-05T21:39:18.944Z - info: Searching for available extensions in C:\Users\pc\Pictures\jsreportapp\
+2025-12-05T21:39:18.950Z - info: Extensions location cache C:\Users\pc\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2025-12-05T21:39:21.718Z - info: Found 35 extension(s)
+2025-12-05T21:39:21.812Z - info: Using extension base@4.0.0
+2025-12-05T21:39:21.818Z - info: Using extension child-templates@4.1.0
+2025-12-05T21:39:21.822Z - info: Using extension cli@4.1.2
+2025-12-05T21:39:21.826Z - info: Using extension components@4.0.2
+2025-12-05T21:39:21.828Z - info: Using extension data@4.1.0
+2025-12-05T21:39:21.831Z - info: Using extension express@4.2.3
+2025-12-05T21:39:22.231Z - info: Using extension freeze@4.0.0
+2025-12-05T21:39:22.233Z - info: Using extension fs-store@4.1.1
+2025-12-05T21:39:22.447Z - info: Using extension handlebars@4.0.1
+2025-12-05T21:39:22.449Z - info: Using extension import-export@4.0.8
+2025-12-05T21:39:22.467Z - info: Using extension jsrender@4.0.0
+2025-12-05T21:39:22.468Z - info: Using extension licensing@4.0.5
+2025-12-05T21:39:22.531Z - info: Using extension localization@4.0.1
+2025-12-05T21:39:22.533Z - info: Using extension npm@4.0.1
+2025-12-05T21:39:22.541Z - info: Using extension pdf-utils@4.4.1
+2025-12-05T21:39:22.546Z - info: Using extension reports@4.1.5
+2025-12-05T21:39:22.549Z - info: Using extension tags@4.0.1
+2025-12-05T21:39:22.551Z - info: Using extension text@4.0.2
+2025-12-05T21:39:22.553Z - info: Using extension version-control@4.1.1
+2025-12-05T21:39:22.563Z - info: Using extension assets@4.2.3
+2025-12-05T21:39:22.577Z - info: Using extension authorization@4.1.0
+2025-12-05T21:39:22.586Z - info: Using extension browser-client@4.1.0
+2025-12-05T21:39:22.589Z - info: Using extension chrome-pdf@4.3.0
+2025-12-05T21:39:22.595Z - info: Using extension docx@4.9.0
+2025-12-05T21:39:22.598Z - info: Using extension html-to-xlsx@4.2.4
+2025-12-05T21:39:22.926Z - info: html-to-xlsx detected chrome as available html engine
+2025-12-05T21:39:22.927Z - info: Using extension pptx@4.4.2
+2025-12-05T21:39:22.929Z - info: Using extension scheduling@4.1.0
+2025-12-05T21:39:22.965Z - info: Using extension scripts@4.2.0
+2025-12-05T21:39:22.967Z - info: Using extension static-pdf@4.1.0
+2025-12-05T21:39:22.968Z - info: Using extension studio@4.3.2
+2025-12-05T21:39:23.109Z - info: Using extension xlsx@4.5.1
+2025-12-05T21:39:23.136Z - info: Using extension public-templates@4.0.0
+2025-12-05T21:39:23.139Z - info: Using extension sample-template@4.0.2
+2025-12-05T21:39:23.142Z - info: Using extension studio-theme-dark@4.0.0
+2025-12-05T21:39:23.146Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2025-12-05T21:39:23.146Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-12-05T21:39:23.146Z - info: Using fs provider for template store.
+2025-12-05T21:39:23.150Z - info: fs store is persisting using fs for C:\Users\pc\Pictures\jsreportapp\data
+2025-12-05T21:39:23.159Z - info: fs store is loading data
+2025-12-05T21:39:23.178Z - info: fs store is initialized successfully
+2025-12-05T21:39:23.190Z - info: Creating default express app.
+2025-12-05T21:39:23.360Z - info: jsreport server successfully started on http port: 5488
+2025-12-05T21:39:23.362Z - info: Verifying license key free
+2025-12-05T21:39:23.363Z - info: Using free license
+2025-12-05T21:39:23.369Z - info: Initializing worker threads
+2025-12-05T21:39:23.643Z - info: 2 worker threads initialized in 274ms
+2025-12-05T21:39:23.644Z - info: Starting temp files cleanup with 180000ms threshold
+2025-12-05T21:39:23.644Z - info: reporter initialized
+2025-12-05T21:39:39.162Z - info: Render request 1 queued for execution and waiting for available worker rootId=io61gp18098wqtm, id=io61gp18098wqtm
+2025-12-05T21:39:39.207Z - info: Starting rendering request 1 rootId=io61gp18098wqtm, id=io61gp18098wqtm
+2025-12-05T21:39:39.210Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=io61gp18098wqtm, id=io61gp18098wqtm
+2025-12-05T21:39:41.055Z - info: pptx generation is starting rootId=io61gp18098wqtm, id=io61gp18098wqtm
+2025-12-05T21:39:41.256Z - info: Starting rendering (child) request rootId=io61gp18098wqtm, id=e4c4lhgicekfw2z
+2025-12-05T21:39:41.256Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=io61gp18098wqtm, id=e4c4lhgicekfw2z
+2025-12-05T21:39:41.301Z - info: Rendering (child) request finished in 2147 ms rootId=io61gp18098wqtm, id=e4c4lhgicekfw2z
+2025-12-05T21:39:42.043Z - info: pptx generation was finished rootId=io61gp18098wqtm, id=io61gp18098wqtm
+2025-12-05T21:39:42.054Z - info: Rendering request 1 finished in 2900 ms rootId=io61gp18098wqtm, id=io61gp18098wqtm
+2025-12-05T21:46:22.626Z - info: Render request 2 queued for execution and waiting for available worker rootId=elumylqg3bv0fcu, id=elumylqg3bv0fcu
+2025-12-05T21:46:22.648Z - info: Starting rendering request 2 rootId=elumylqg3bv0fcu, id=elumylqg3bv0fcu
+2025-12-05T21:46:22.651Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=elumylqg3bv0fcu, id=elumylqg3bv0fcu
+2025-12-05T21:46:24.123Z - info: pptx generation is starting rootId=elumylqg3bv0fcu, id=elumylqg3bv0fcu
+2025-12-05T21:46:24.305Z - info: Starting rendering (child) request rootId=elumylqg3bv0fcu, id=q5mo70lkk8zceo8
+2025-12-05T21:46:24.306Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=elumylqg3bv0fcu, id=q5mo70lkk8zceo8
+2025-12-05T21:46:24.342Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...">{{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+Error: Parse error on line 22:
+...">{{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at Object.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+    at hb.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:252:44)
+    at sandbox.js:79:18
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...">{{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=elumylqg3bv0fcu, id=q5mo70lkk8zceo8
+2025-12-05T21:46:24.343Z - warn: Rendering (child) request finished with error in 1723 ms rootId=elumylqg3bv0fcu, id=q5mo70lkk8zceo8
+2025-12-05T21:46:24.343Z - warn: Error when processing render request 2
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...">{{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+Error: Parse error on line 22:
+...">{{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at Object.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+    at hb.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:252:44)
+    at sandbox.js:79:18
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...">{{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...">{{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=elumylqg3bv0fcu, id=elumylqg3bv0fcu
+2025-12-05T21:46:24.343Z - warn: Rendering request 2 finished with error in 1723 ms rootId=elumylqg3bv0fcu, id=elumylqg3bv0fcu
+2025-12-05T21:50:31.440Z - info: Render request 3 queued for execution and waiting for available worker rootId=ys5zsd6semkqqb4, id=ys5zsd6semkqqb4
+2025-12-05T21:50:31.467Z - info: Starting rendering request 3 rootId=ys5zsd6semkqqb4, id=ys5zsd6semkqqb4
+2025-12-05T21:50:31.467Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=ys5zsd6semkqqb4, id=ys5zsd6semkqqb4
+2025-12-05T21:50:31.490Z - info: pptx generation is starting rootId=ys5zsd6semkqqb4, id=ys5zsd6semkqqb4
+2025-12-05T21:50:31.631Z - info: Starting rendering (child) request rootId=ys5zsd6semkqqb4, id=u01h7u829mvrcp8
+2025-12-05T21:50:31.631Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=ys5zsd6semkqqb4, id=u01h7u829mvrcp8
+2025-12-05T21:50:31.656Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+Error: Parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at Object.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+    at hb.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:252:44)
+    at sandbox.js:79:18
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=ys5zsd6semkqqb4, id=u01h7u829mvrcp8
+2025-12-05T21:50:31.656Z - warn: Rendering (child) request finished with error in 219 ms rootId=ys5zsd6semkqqb4, id=u01h7u829mvrcp8
+2025-12-05T21:50:31.657Z - warn: Error when processing render request 3
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+Error: Parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at Object.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+    at hb.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:252:44)
+    at sandbox.js:79:18
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=ys5zsd6semkqqb4, id=ys5zsd6semkqqb4
+2025-12-05T21:50:31.657Z - warn: Rendering request 3 finished with error in 220 ms rootId=ys5zsd6semkqqb4, id=ys5zsd6semkqqb4
+2025-12-05T21:50:54.567Z - info: Render request 4 queued for execution and waiting for available worker rootId=i81fr324uvo1iac, id=i81fr324uvo1iac
+2025-12-05T21:50:54.589Z - info: Starting rendering request 4 rootId=i81fr324uvo1iac, id=i81fr324uvo1iac
+2025-12-05T21:50:54.589Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=i81fr324uvo1iac, id=i81fr324uvo1iac
+2025-12-05T21:50:54.610Z - info: pptx generation is starting rootId=i81fr324uvo1iac, id=i81fr324uvo1iac
+2025-12-05T21:50:54.751Z - info: Starting rendering (child) request rootId=i81fr324uvo1iac, id=uaav24qva0u5tol
+2025-12-05T21:50:54.751Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=i81fr324uvo1iac, id=uaav24qva0u5tol
+2025-12-05T21:50:54.773Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+Error: Parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at Object.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+    at hb.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:252:44)
+    at sandbox.js:79:18
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=i81fr324uvo1iac, id=uaav24qva0u5tol
+2025-12-05T21:50:54.773Z - warn: Rendering (child) request finished with error in 209 ms rootId=i81fr324uvo1iac, id=uaav24qva0u5tol
+2025-12-05T21:50:54.773Z - warn: Error when processing render request 4
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+Error: Parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at Object.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+    at hb.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:252:44)
+    at sandbox.js:79:18
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=i81fr324uvo1iac, id=i81fr324uvo1iac
+2025-12-05T21:50:54.773Z - warn: Rendering request 4 finished with error in 209 ms rootId=i81fr324uvo1iac, id=i81fr324uvo1iac
+2025-12-05T21:54:20.662Z - info: Closing jsreport instance
+2025-12-05T21:54:20.709Z - info: jsreport instance has been closed
+2025-12-05T21:54:26.267Z - info: Initializing jsreport (version: 4.10.1, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-12-05T21:54:26.271Z - info: Searching for available extensions in C:\Users\pc\Pictures\jsreportapp\
+2025-12-05T21:54:26.275Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\pc\Pictures\jsreportapp\
+2025-12-05T21:54:26.403Z - info: Found 35 extension(s)
+2025-12-05T21:54:26.467Z - info: Using extension base@4.0.0
+2025-12-05T21:54:26.472Z - info: Using extension child-templates@4.1.0
+2025-12-05T21:54:26.475Z - info: Using extension cli@4.1.2
+2025-12-05T21:54:26.477Z - info: Using extension components@4.0.2
+2025-12-05T21:54:26.479Z - info: Using extension data@4.1.0
+2025-12-05T21:54:26.480Z - info: Using extension express@4.2.3
+2025-12-05T21:54:26.700Z - info: Using extension freeze@4.0.0
+2025-12-05T21:54:26.702Z - info: Using extension fs-store@4.1.1
+2025-12-05T21:54:26.804Z - info: Using extension handlebars@4.0.1
+2025-12-05T21:54:26.806Z - info: Using extension import-export@4.0.8
+2025-12-05T21:54:26.816Z - info: Using extension jsrender@4.0.0
+2025-12-05T21:54:26.817Z - info: Using extension licensing@4.0.5
+2025-12-05T21:54:26.860Z - info: Using extension localization@4.0.1
+2025-12-05T21:54:26.862Z - info: Using extension npm@4.0.1
+2025-12-05T21:54:26.866Z - info: Using extension pdf-utils@4.4.1
+2025-12-05T21:54:26.868Z - info: Using extension reports@4.1.5
+2025-12-05T21:54:26.871Z - info: Using extension tags@4.0.1
+2025-12-05T21:54:26.873Z - info: Using extension text@4.0.2
+2025-12-05T21:54:26.874Z - info: Using extension version-control@4.1.1
+2025-12-05T21:54:26.881Z - info: Using extension assets@4.2.3
+2025-12-05T21:54:26.889Z - info: Using extension authorization@4.1.0
+2025-12-05T21:54:26.893Z - info: Using extension browser-client@4.1.0
+2025-12-05T21:54:26.896Z - info: Using extension chrome-pdf@4.3.0
+2025-12-05T21:54:26.901Z - info: Using extension docx@4.9.0
+2025-12-05T21:54:26.903Z - info: Using extension html-to-xlsx@4.2.4
+2025-12-05T21:54:27.110Z - info: html-to-xlsx detected chrome as available html engine
+2025-12-05T21:54:27.111Z - info: Using extension pptx@4.4.2
+2025-12-05T21:54:27.113Z - info: Using extension scheduling@4.1.0
+2025-12-05T21:54:27.138Z - info: Using extension scripts@4.2.0
+2025-12-05T21:54:27.140Z - info: Using extension static-pdf@4.1.0
+2025-12-05T21:54:27.141Z - info: Using extension studio@4.3.2
+2025-12-05T21:54:27.217Z - info: Using extension xlsx@4.5.1
+2025-12-05T21:54:27.220Z - info: Using extension public-templates@4.0.0
+2025-12-05T21:54:27.222Z - info: Using extension sample-template@4.0.2
+2025-12-05T21:54:27.224Z - info: Using extension studio-theme-dark@4.0.0
+2025-12-05T21:54:27.225Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2025-12-05T21:54:27.226Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-12-05T21:54:27.226Z - info: Using fs provider for template store.
+2025-12-05T21:54:27.230Z - info: fs store is persisting using fs for C:\Users\pc\Pictures\jsreportapp\data
+2025-12-05T21:54:27.239Z - info: fs store is loading data
+2025-12-05T21:54:27.260Z - info: fs store is initialized successfully
+2025-12-05T21:54:27.270Z - info: Creating default express app.
+2025-12-05T21:54:27.285Z - info: jsreport server successfully started on http port: 5488
+2025-12-05T21:54:27.287Z - info: Verifying license key free
+2025-12-05T21:54:27.288Z - info: Using free license
+2025-12-05T21:54:27.292Z - info: Initializing worker threads
+2025-12-05T21:54:27.499Z - info: 2 worker threads initialized in 207ms
+2025-12-05T21:54:27.500Z - info: Starting temp files cleanup with 180000ms threshold
+2025-12-05T21:54:27.501Z - info: reporter initialized
+2025-12-05T21:54:48.944Z - info: Render request 1 queued for execution and waiting for available worker rootId=pc0rvpqoom4bqpn, id=pc0rvpqoom4bqpn
+2025-12-05T21:54:48.998Z - info: Starting rendering request 1 rootId=pc0rvpqoom4bqpn, id=pc0rvpqoom4bqpn
+2025-12-05T21:54:49.001Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=pc0rvpqoom4bqpn, id=pc0rvpqoom4bqpn
+2025-12-05T21:54:50.457Z - info: pptx generation is starting rootId=pc0rvpqoom4bqpn, id=pc0rvpqoom4bqpn
+2025-12-05T21:54:50.677Z - info: Starting rendering (child) request rootId=pc0rvpqoom4bqpn, id=ixyj8m0t3fgjzh1
+2025-12-05T21:54:50.677Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=pc0rvpqoom4bqpn, id=ixyj8m0t3fgjzh1
+2025-12-05T21:54:50.710Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+Error: Parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at Object.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+    at hb.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:252:44)
+    at sandbox.js:79:18
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=pc0rvpqoom4bqpn, id=ixyj8m0t3fgjzh1
+2025-12-05T21:54:50.710Z - warn: Rendering (child) request finished with error in 1772 ms rootId=pc0rvpqoom4bqpn, id=ixyj8m0t3fgjzh1
+2025-12-05T21:54:50.711Z - warn: Error when processing render request 1
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+Error: Parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at Parser.parseError (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:267:19)
+    at Parser.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\parser.js:336:30)
+    at parseWithoutProcessing (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:46:33)
+    at HandlebarsEnvironment.parse (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\base.js:52:13)
+    at Object.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\compiler\compiler.js:485:17)
+    at hb.precompile (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars.js:42:40)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:34:52)
+    at Object.compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:26:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:252:44)
+    at sandbox.js:79:18
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) parse error on line 22:
+...> {{#pptxImage src=(~asset "/chartPercen
+-----------------------^
+Expecting 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'INVALID'
+
+(sandbox.js line 79:18)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=pc0rvpqoom4bqpn, id=pc0rvpqoom4bqpn
+2025-12-05T21:54:50.711Z - warn: Rendering request 1 finished with error in 1773 ms rootId=pc0rvpqoom4bqpn, id=pc0rvpqoom4bqpn
+2025-12-05T22:04:52.776Z - info: Closing jsreport instance
+2025-12-05T22:04:52.805Z - info: jsreport instance has been closed
+2025-12-05T22:04:55.280Z - info: Initializing jsreport (version: 4.10.1, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-12-05T22:04:55.284Z - info: Searching for available extensions in C:\Users\pc\Pictures\jsreportapp\
+2025-12-05T22:04:55.289Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\pc\Pictures\jsreportapp\
+2025-12-05T22:04:55.371Z - info: Found 35 extension(s)
+2025-12-05T22:04:55.444Z - info: Using extension base@4.0.0
+2025-12-05T22:04:55.451Z - info: Using extension child-templates@4.1.0
+2025-12-05T22:04:55.454Z - info: Using extension cli@4.1.2
+2025-12-05T22:04:55.457Z - info: Using extension components@4.0.2
+2025-12-05T22:04:55.458Z - info: Using extension data@4.1.0
+2025-12-05T22:04:55.459Z - info: Using extension express@4.2.3
+2025-12-05T22:04:55.698Z - info: Using extension freeze@4.0.0
+2025-12-05T22:04:55.700Z - info: Using extension fs-store@4.1.1
+2025-12-05T22:04:55.804Z - info: Using extension handlebars@4.0.1
+2025-12-05T22:04:55.806Z - info: Using extension import-export@4.0.8
+2025-12-05T22:04:55.817Z - info: Using extension jsrender@4.0.0
+2025-12-05T22:04:55.818Z - info: Using extension licensing@4.0.5
+2025-12-05T22:04:55.857Z - info: Using extension localization@4.0.1
+2025-12-05T22:04:55.859Z - info: Using extension npm@4.0.1
+2025-12-05T22:04:55.863Z - info: Using extension pdf-utils@4.4.1
+2025-12-05T22:04:55.866Z - info: Using extension reports@4.1.5
+2025-12-05T22:04:55.868Z - info: Using extension tags@4.0.1
+2025-12-05T22:04:55.869Z - info: Using extension text@4.0.2
+2025-12-05T22:04:55.870Z - info: Using extension version-control@4.1.1
+2025-12-05T22:04:55.877Z - info: Using extension assets@4.2.3
+2025-12-05T22:04:55.886Z - info: Using extension authorization@4.1.0
+2025-12-05T22:04:55.890Z - info: Using extension browser-client@4.1.0
+2025-12-05T22:04:55.893Z - info: Using extension chrome-pdf@4.3.0
+2025-12-05T22:04:55.898Z - info: Using extension docx@4.9.0
+2025-12-05T22:04:55.900Z - info: Using extension html-to-xlsx@4.2.4
+2025-12-05T22:04:56.107Z - info: html-to-xlsx detected chrome as available html engine
+2025-12-05T22:04:56.108Z - info: Using extension pptx@4.4.2
+2025-12-05T22:04:56.110Z - info: Using extension scheduling@4.1.0
+2025-12-05T22:04:56.135Z - info: Using extension scripts@4.2.0
+2025-12-05T22:04:56.136Z - info: Using extension static-pdf@4.1.0
+2025-12-05T22:04:56.137Z - info: Using extension studio@4.3.2
+2025-12-05T22:04:56.211Z - info: Using extension xlsx@4.5.1
+2025-12-05T22:04:56.214Z - info: Using extension public-templates@4.0.0
+2025-12-05T22:04:56.216Z - info: Using extension sample-template@4.0.2
+2025-12-05T22:04:56.218Z - info: Using extension studio-theme-dark@4.0.0
+2025-12-05T22:04:56.219Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2025-12-05T22:04:56.220Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-12-05T22:04:56.220Z - info: Using fs provider for template store.
+2025-12-05T22:04:56.224Z - info: fs store is persisting using fs for C:\Users\pc\Pictures\jsreportapp\data
+2025-12-05T22:04:56.233Z - info: fs store is loading data
+2025-12-05T22:04:56.255Z - info: fs store is initialized successfully
+2025-12-05T22:04:56.266Z - info: Creating default express app.
+2025-12-05T22:04:56.281Z - info: jsreport server successfully started on http port: 5488
+2025-12-05T22:04:56.282Z - info: Verifying license key free
+2025-12-05T22:04:56.284Z - info: Using free license
+2025-12-05T22:04:56.288Z - info: Initializing worker threads
+2025-12-05T22:04:56.490Z - info: 2 worker threads initialized in 202ms
+2025-12-05T22:04:56.491Z - info: Starting temp files cleanup with 180000ms threshold
+2025-12-05T22:04:56.492Z - info: reporter initialized
+2025-12-05T22:05:09.763Z - info: Render request 1 queued for execution and waiting for available worker rootId=bfzkbx3vl77gqq7, id=bfzkbx3vl77gqq7
+2025-12-05T22:05:09.809Z - info: Starting rendering request 1 rootId=bfzkbx3vl77gqq7, id=bfzkbx3vl77gqq7
+2025-12-05T22:05:09.812Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=bfzkbx3vl77gqq7, id=bfzkbx3vl77gqq7
+2025-12-05T22:05:11.309Z - info: pptx generation is starting rootId=bfzkbx3vl77gqq7, id=bfzkbx3vl77gqq7
+2025-12-05T22:05:11.506Z - info: Starting rendering (child) request rootId=bfzkbx3vl77gqq7, id=33svacp2z0hehlj
+2025-12-05T22:05:11.507Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=bfzkbx3vl77gqq7, id=33svacp2z0hehlj
+2025-12-05T22:05:11.601Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {{getChartImage}}
+
+(system-helpers.js line 2320:11)
+
+  2318 |     !options.hash.src.startsWith('https://')
+  2319 |   ) {
+> 2320 |     throw new Error(
+       |           ^
+  2321 |       'pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got ' +
+  2322 |         options.hash.src
+  2323 |     )
+
+
+Error: pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {{getChartImage}}
+    at Object.pptxImage (system-helpers.js:2320:11)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:446:23)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:23
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:423:37)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:46:112)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+wrapped by:
+Error: "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {{getChartImage}}
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:448:15)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:23
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:423:37)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:46:112)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {{getChartImage}}
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=bfzkbx3vl77gqq7, id=33svacp2z0hehlj
+2025-12-05T22:05:11.601Z - warn: Rendering (child) request finished with error in 1844 ms rootId=bfzkbx3vl77gqq7, id=33svacp2z0hehlj
+2025-12-05T22:05:11.602Z - warn: Error when processing render request 1
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {{getChartImage}}
+
+(system-helpers.js line 2320:11)
+
+  2318 |     !options.hash.src.startsWith('https://')
+  2319 |   ) {
+> 2320 |     throw new Error(
+       |           ^
+  2321 |       'pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got ' +
+  2322 |         options.hash.src
+  2323 |     )
+
+
+Error: pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {{getChartImage}}
+    at Object.pptxImage (system-helpers.js:2320:11)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:446:23)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:23
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:423:37)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:46:112)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+wrapped by:
+Error: "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {{getChartImage}}
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:448:15)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:23
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:423:37)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:46:112)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {{getChartImage}}
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {{getChartImage}}
+
+(system-helpers.js line 2320:11)
+
+  2318 |     !options.hash.src.startsWith('https://')
+  2319 |   ) {
+> 2320 |     throw new Error(
+       |           ^
+  2321 |       'pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got ' +
+  2322 |         options.hash.src
+  2323 |     )
+
+
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=bfzkbx3vl77gqq7, id=bfzkbx3vl77gqq7
+2025-12-05T22:05:11.602Z - warn: Rendering request 1 finished with error in 1845 ms rootId=bfzkbx3vl77gqq7, id=bfzkbx3vl77gqq7
+2025-12-05T22:06:45.530Z - info: Render request 2 queued for execution and waiting for available worker rootId=te96ajlam2ftcyv, id=te96ajlam2ftcyv
+2025-12-05T22:06:45.563Z - info: Starting rendering request 2 rootId=te96ajlam2ftcyv, id=te96ajlam2ftcyv
+2025-12-05T22:06:45.567Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=te96ajlam2ftcyv, id=te96ajlam2ftcyv
+2025-12-05T22:06:47.042Z - info: pptx generation is starting rootId=te96ajlam2ftcyv, id=te96ajlam2ftcyv
+2025-12-05T22:06:47.248Z - info: Starting rendering (child) request rootId=te96ajlam2ftcyv, id=16fwzlxatymroc1
+2025-12-05T22:06:47.249Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=te96ajlam2ftcyv, id=16fwzlxatymroc1
+2025-12-05T22:06:47.300Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 69:21)
+
+  67 | // Alternative: Helper that returns data URI format
+  68 | Handlebars.registerHelper('getChartImageDataURI', function() {
+> 69 |   const imagePath = path.join(__dirname, 'chartPercentage', '1.png');
+     |                     ^
+  70 |   
+  71 |   if (!fs.existsSync(imagePath)) {
+  72 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 94:18)
+ReferenceError: path is not defined
+    at Object.<anonymous> (sandbox.js:69:21)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:222)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:273:42)
+    at sandbox.js:94:18
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=te96ajlam2ftcyv, id=16fwzlxatymroc1
+2025-12-05T22:06:47.300Z - warn: Rendering (child) request finished with error in 1775 ms rootId=te96ajlam2ftcyv, id=16fwzlxatymroc1
+2025-12-05T22:06:47.301Z - warn: Error when processing render request 2
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 69:21)
+
+  67 | // Alternative: Helper that returns data URI format
+  68 | Handlebars.registerHelper('getChartImageDataURI', function() {
+> 69 |   const imagePath = path.join(__dirname, 'chartPercentage', '1.png');
+     |                     ^
+  70 |   
+  71 |   if (!fs.existsSync(imagePath)) {
+  72 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 94:18)
+ReferenceError: path is not defined
+    at Object.<anonymous> (sandbox.js:69:21)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:222)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:273:42)
+    at sandbox.js:94:18
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 69:21)
+
+  67 | // Alternative: Helper that returns data URI format
+  68 | Handlebars.registerHelper('getChartImageDataURI', function() {
+> 69 |   const imagePath = path.join(__dirname, 'chartPercentage', '1.png');
+     |                     ^
+  70 |   
+  71 |   if (!fs.existsSync(imagePath)) {
+  72 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 94:18)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=te96ajlam2ftcyv, id=te96ajlam2ftcyv
+2025-12-05T22:06:47.301Z - warn: Rendering request 2 finished with error in 1776 ms rootId=te96ajlam2ftcyv, id=te96ajlam2ftcyv
+2025-12-05T22:07:21.106Z - info: Closing jsreport instance
+2025-12-05T22:07:21.135Z - info: jsreport instance has been closed
+2025-12-05T22:07:26.151Z - info: Initializing jsreport (version: 4.10.1, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-12-05T22:07:26.154Z - info: Searching for available extensions in C:\Users\pc\Pictures\jsreportapp\
+2025-12-05T22:07:26.159Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\pc\Pictures\jsreportapp\
+2025-12-05T22:07:26.249Z - info: Found 35 extension(s)
+2025-12-05T22:07:26.325Z - info: Using extension base@4.0.0
+2025-12-05T22:07:26.330Z - info: Using extension child-templates@4.1.0
+2025-12-05T22:07:26.335Z - info: Using extension cli@4.1.2
+2025-12-05T22:07:26.338Z - info: Using extension components@4.0.2
+2025-12-05T22:07:26.340Z - info: Using extension data@4.1.0
+2025-12-05T22:07:26.341Z - info: Using extension express@4.2.3
+2025-12-05T22:07:26.594Z - info: Using extension freeze@4.0.0
+2025-12-05T22:07:26.596Z - info: Using extension fs-store@4.1.1
+2025-12-05T22:07:26.700Z - info: Using extension handlebars@4.0.1
+2025-12-05T22:07:26.702Z - info: Using extension import-export@4.0.8
+2025-12-05T22:07:26.711Z - info: Using extension jsrender@4.0.0
+2025-12-05T22:07:26.712Z - info: Using extension licensing@4.0.5
+2025-12-05T22:07:26.749Z - info: Using extension localization@4.0.1
+2025-12-05T22:07:26.750Z - info: Using extension npm@4.0.1
+2025-12-05T22:07:26.755Z - info: Using extension pdf-utils@4.4.1
+2025-12-05T22:07:26.757Z - info: Using extension reports@4.1.5
+2025-12-05T22:07:26.760Z - info: Using extension tags@4.0.1
+2025-12-05T22:07:26.761Z - info: Using extension text@4.0.2
+2025-12-05T22:07:26.762Z - info: Using extension version-control@4.1.1
+2025-12-05T22:07:26.770Z - info: Using extension assets@4.2.3
+2025-12-05T22:07:26.779Z - info: Using extension authorization@4.1.0
+2025-12-05T22:07:26.785Z - info: Using extension browser-client@4.1.0
+2025-12-05T22:07:26.787Z - info: Using extension chrome-pdf@4.3.0
+2025-12-05T22:07:26.792Z - info: Using extension docx@4.9.0
+2025-12-05T22:07:26.794Z - info: Using extension html-to-xlsx@4.2.4
+2025-12-05T22:07:27.020Z - info: html-to-xlsx detected chrome as available html engine
+2025-12-05T22:07:27.021Z - info: Using extension pptx@4.4.2
+2025-12-05T22:07:27.022Z - info: Using extension scheduling@4.1.0
+2025-12-05T22:07:27.049Z - info: Using extension scripts@4.2.0
+2025-12-05T22:07:27.051Z - info: Using extension static-pdf@4.1.0
+2025-12-05T22:07:27.053Z - info: Using extension studio@4.3.2
+2025-12-05T22:07:27.133Z - info: Using extension xlsx@4.5.1
+2025-12-05T22:07:27.136Z - info: Using extension public-templates@4.0.0
+2025-12-05T22:07:27.138Z - info: Using extension sample-template@4.0.2
+2025-12-05T22:07:27.140Z - info: Using extension studio-theme-dark@4.0.0
+2025-12-05T22:07:27.142Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2025-12-05T22:07:27.142Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-12-05T22:07:27.142Z - info: Using fs provider for template store.
+2025-12-05T22:07:27.146Z - info: fs store is persisting using fs for C:\Users\pc\Pictures\jsreportapp\data
+2025-12-05T22:07:27.157Z - info: fs store is loading data
+2025-12-05T22:07:27.178Z - info: fs store is initialized successfully
+2025-12-05T22:07:27.189Z - info: Creating default express app.
+2025-12-05T22:07:27.204Z - info: jsreport server successfully started on http port: 5488
+2025-12-05T22:07:27.205Z - info: Verifying license key free
+2025-12-05T22:07:27.206Z - info: Using free license
+2025-12-05T22:07:27.210Z - info: Initializing worker threads
+2025-12-05T22:07:27.411Z - info: 2 worker threads initialized in 201ms
+2025-12-05T22:07:27.412Z - info: Starting temp files cleanup with 180000ms threshold
+2025-12-05T22:07:27.413Z - info: reporter initialized
+2025-12-05T22:07:29.653Z - info: Render request 1 queued for execution and waiting for available worker rootId=rdkjc61jf5d3zhv, id=rdkjc61jf5d3zhv
+2025-12-05T22:07:29.697Z - info: Starting rendering request 1 rootId=rdkjc61jf5d3zhv, id=rdkjc61jf5d3zhv
+2025-12-05T22:07:29.700Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=rdkjc61jf5d3zhv, id=rdkjc61jf5d3zhv
+2025-12-05T22:07:31.160Z - info: pptx generation is starting rootId=rdkjc61jf5d3zhv, id=rdkjc61jf5d3zhv
+2025-12-05T22:07:31.353Z - info: Starting rendering (child) request rootId=rdkjc61jf5d3zhv, id=ko9azfvqwxnpw9g
+2025-12-05T22:07:31.353Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=rdkjc61jf5d3zhv, id=ko9azfvqwxnpw9g
+2025-12-05T22:07:31.400Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 69:21)
+
+  67 | // Alternative: Helper that returns data URI format
+  68 | Handlebars.registerHelper('getChartImageDataURI', function() {
+> 69 |   const imagePath = path.join(__dirname, 'chartPercentage', '1.png');
+     |                     ^
+  70 |   
+  71 |   if (!fs.existsSync(imagePath)) {
+  72 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 94:18)
+ReferenceError: path is not defined
+    at Object.<anonymous> (sandbox.js:69:21)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:222)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:273:42)
+    at sandbox.js:94:18
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=rdkjc61jf5d3zhv, id=ko9azfvqwxnpw9g
+2025-12-05T22:07:31.400Z - warn: Rendering (child) request finished with error in 1754 ms rootId=rdkjc61jf5d3zhv, id=ko9azfvqwxnpw9g
+2025-12-05T22:07:31.400Z - warn: Error when processing render request 1
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 69:21)
+
+  67 | // Alternative: Helper that returns data URI format
+  68 | Handlebars.registerHelper('getChartImageDataURI', function() {
+> 69 |   const imagePath = path.join(__dirname, 'chartPercentage', '1.png');
+     |                     ^
+  70 |   
+  71 |   if (!fs.existsSync(imagePath)) {
+  72 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 94:18)
+ReferenceError: path is not defined
+    at Object.<anonymous> (sandbox.js:69:21)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:222)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:273:42)
+    at sandbox.js:94:18
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 69:21)
+
+  67 | // Alternative: Helper that returns data URI format
+  68 | Handlebars.registerHelper('getChartImageDataURI', function() {
+> 69 |   const imagePath = path.join(__dirname, 'chartPercentage', '1.png');
+     |                     ^
+  70 |   
+  71 |   if (!fs.existsSync(imagePath)) {
+  72 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 94:18)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=rdkjc61jf5d3zhv, id=rdkjc61jf5d3zhv
+2025-12-05T22:07:31.400Z - warn: Rendering request 1 finished with error in 1754 ms rootId=rdkjc61jf5d3zhv, id=rdkjc61jf5d3zhv
+2025-12-05T22:09:35.481Z - info: Closing jsreport instance
+2025-12-05T22:09:35.516Z - info: jsreport instance has been closed
+2025-12-05T22:09:41.549Z - info: Initializing jsreport (version: 4.10.1, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-12-05T22:09:41.552Z - info: Searching for available extensions in C:\Users\pc\Pictures\jsreportapp\
+2025-12-05T22:09:41.557Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\pc\Pictures\jsreportapp\
+2025-12-05T22:09:41.652Z - info: Found 35 extension(s)
+2025-12-05T22:09:41.718Z - info: Using extension base@4.0.0
+2025-12-05T22:09:41.724Z - info: Using extension child-templates@4.1.0
+2025-12-05T22:09:41.727Z - info: Using extension cli@4.1.2
+2025-12-05T22:09:41.729Z - info: Using extension components@4.0.2
+2025-12-05T22:09:41.731Z - info: Using extension data@4.1.0
+2025-12-05T22:09:41.733Z - info: Using extension express@4.2.3
+2025-12-05T22:09:41.968Z - info: Using extension freeze@4.0.0
+2025-12-05T22:09:41.971Z - info: Using extension fs-store@4.1.1
+2025-12-05T22:09:42.085Z - info: Using extension handlebars@4.0.1
+2025-12-05T22:09:42.087Z - info: Using extension import-export@4.0.8
+2025-12-05T22:09:42.096Z - info: Using extension jsrender@4.0.0
+2025-12-05T22:09:42.097Z - info: Using extension licensing@4.0.5
+2025-12-05T22:09:42.137Z - info: Using extension localization@4.0.1
+2025-12-05T22:09:42.138Z - info: Using extension npm@4.0.1
+2025-12-05T22:09:42.143Z - info: Using extension pdf-utils@4.4.1
+2025-12-05T22:09:42.146Z - info: Using extension reports@4.1.5
+2025-12-05T22:09:42.150Z - info: Using extension tags@4.0.1
+2025-12-05T22:09:42.152Z - info: Using extension text@4.0.2
+2025-12-05T22:09:42.153Z - info: Using extension version-control@4.1.1
+2025-12-05T22:09:42.161Z - info: Using extension assets@4.2.3
+2025-12-05T22:09:42.170Z - info: Using extension authorization@4.1.0
+2025-12-05T22:09:42.174Z - info: Using extension browser-client@4.1.0
+2025-12-05T22:09:42.177Z - info: Using extension chrome-pdf@4.3.0
+2025-12-05T22:09:42.181Z - info: Using extension docx@4.9.0
+2025-12-05T22:09:42.184Z - info: Using extension html-to-xlsx@4.2.4
+2025-12-05T22:09:42.398Z - info: html-to-xlsx detected chrome as available html engine
+2025-12-05T22:09:42.399Z - info: Using extension pptx@4.4.2
+2025-12-05T22:09:42.401Z - info: Using extension scheduling@4.1.0
+2025-12-05T22:09:42.424Z - info: Using extension scripts@4.2.0
+2025-12-05T22:09:42.425Z - info: Using extension static-pdf@4.1.0
+2025-12-05T22:09:42.426Z - info: Using extension studio@4.3.2
+2025-12-05T22:09:42.498Z - info: Using extension xlsx@4.5.1
+2025-12-05T22:09:42.501Z - info: Using extension public-templates@4.0.0
+2025-12-05T22:09:42.502Z - info: Using extension sample-template@4.0.2
+2025-12-05T22:09:42.504Z - info: Using extension studio-theme-dark@4.0.0
+2025-12-05T22:09:42.506Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2025-12-05T22:09:42.506Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-12-05T22:09:42.506Z - info: Using fs provider for template store.
+2025-12-05T22:09:42.510Z - info: fs store is persisting using fs for C:\Users\pc\Pictures\jsreportapp\data
+2025-12-05T22:09:42.519Z - info: fs store is loading data
+2025-12-05T22:09:42.539Z - info: fs store is initialized successfully
+2025-12-05T22:09:42.552Z - info: Creating default express app.
+2025-12-05T22:09:42.566Z - info: jsreport server successfully started on http port: 5488
+2025-12-05T22:09:42.568Z - info: Verifying license key free
+2025-12-05T22:09:42.569Z - info: Using free license
+2025-12-05T22:09:42.573Z - info: Initializing worker threads
+2025-12-05T22:09:42.787Z - info: 2 worker threads initialized in 214ms
+2025-12-05T22:09:42.788Z - info: Starting temp files cleanup with 180000ms threshold
+2025-12-05T22:09:42.789Z - info: reporter initialized
+2025-12-05T22:09:55.391Z - info: Render request 1 queued for execution and waiting for available worker rootId=c1rc23mx55ilppx, id=c1rc23mx55ilppx
+2025-12-05T22:09:55.443Z - info: Starting rendering request 1 rootId=c1rc23mx55ilppx, id=c1rc23mx55ilppx
+2025-12-05T22:09:55.445Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=c1rc23mx55ilppx, id=c1rc23mx55ilppx
+2025-12-05T22:09:56.936Z - info: pptx generation is starting rootId=c1rc23mx55ilppx, id=c1rc23mx55ilppx
+2025-12-05T22:09:57.143Z - info: Starting rendering (child) request rootId=c1rc23mx55ilppx, id=6xtviy7nee6bqfk
+2025-12-05T22:09:57.143Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=c1rc23mx55ilppx, id=6xtviy7nee6bqfk
+2025-12-05T22:09:57.193Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 68:21)
+
+  66 | Handlebars.registerHelper('getChartImageDataURI', function() {
+  67 |   // Assuming your images are in the "static" folder or similar
+> 68 |   const imagePath = path.resolve(process.cwd(), 'chartPercentage', '1.png');
+     |                     ^
+  69 |   
+  70 |   if (!fs.existsSync(imagePath)) {
+  71 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 93:18)
+ReferenceError: path is not defined
+    at Object.<anonymous> (sandbox.js:68:21)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:222)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:273:42)
+    at sandbox.js:93:18
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=c1rc23mx55ilppx, id=6xtviy7nee6bqfk
+2025-12-05T22:09:57.193Z - warn: Rendering (child) request finished with error in 1809 ms rootId=c1rc23mx55ilppx, id=6xtviy7nee6bqfk
+2025-12-05T22:09:57.194Z - warn: Error when processing render request 1
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 68:21)
+
+  66 | Handlebars.registerHelper('getChartImageDataURI', function() {
+  67 |   // Assuming your images are in the "static" folder or similar
+> 68 |   const imagePath = path.resolve(process.cwd(), 'chartPercentage', '1.png');
+     |                     ^
+  69 |   
+  70 |   if (!fs.existsSync(imagePath)) {
+  71 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 93:18)
+ReferenceError: path is not defined
+    at Object.<anonymous> (sandbox.js:68:21)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:222)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:273:42)
+    at sandbox.js:93:18
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 68:21)
+
+  66 | Handlebars.registerHelper('getChartImageDataURI', function() {
+  67 |   // Assuming your images are in the "static" folder or similar
+> 68 |   const imagePath = path.resolve(process.cwd(), 'chartPercentage', '1.png');
+     |                     ^
+  69 |   
+  70 |   if (!fs.existsSync(imagePath)) {
+  71 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 93:18)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=c1rc23mx55ilppx, id=c1rc23mx55ilppx
+2025-12-05T22:09:57.194Z - warn: Rendering request 1 finished with error in 1810 ms rootId=c1rc23mx55ilppx, id=c1rc23mx55ilppx
+2025-12-05T22:12:12.809Z - info: Render request 2 queued for execution and waiting for available worker rootId=2v2qkk43i5tm0a4, id=2v2qkk43i5tm0a4
+2025-12-05T22:12:12.835Z - info: Starting rendering request 2 rootId=2v2qkk43i5tm0a4, id=2v2qkk43i5tm0a4
+2025-12-05T22:12:12.838Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=2v2qkk43i5tm0a4, id=2v2qkk43i5tm0a4
+2025-12-05T22:12:14.370Z - info: pptx generation is starting rootId=2v2qkk43i5tm0a4, id=2v2qkk43i5tm0a4
+2025-12-05T22:12:14.575Z - info: Starting rendering (child) request rootId=2v2qkk43i5tm0a4, id=q01ywfdlau20b6d
+2025-12-05T22:12:14.575Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=2v2qkk43i5tm0a4, id=q01ywfdlau20b6d
+2025-12-05T22:12:14.633Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 68:21)
+
+  66 | Handlebars.registerHelper('getChartImageDataURI', function() {
+  67 |   // Assuming your images are in the "static" folder or similar
+> 68 |   const imagePath = path.resolve(process.cwd(), 'chartPercentage', '1.png');
+     |                     ^
+  69 |   
+  70 |   if (!fs.existsSync(imagePath)) {
+  71 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 93:18)
+ReferenceError: path is not defined
+    at Object.<anonymous> (sandbox.js:68:21)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:222)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:273:42)
+    at sandbox.js:93:18
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=2v2qkk43i5tm0a4, id=q01ywfdlau20b6d
+2025-12-05T22:12:14.633Z - warn: Rendering (child) request finished with error in 1828 ms rootId=2v2qkk43i5tm0a4, id=q01ywfdlau20b6d
+2025-12-05T22:12:14.634Z - warn: Error when processing render request 2
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 68:21)
+
+  66 | Handlebars.registerHelper('getChartImageDataURI', function() {
+  67 |   // Assuming your images are in the "static" folder or similar
+> 68 |   const imagePath = path.resolve(process.cwd(), 'chartPercentage', '1.png');
+     |                     ^
+  69 |   
+  70 |   if (!fs.existsSync(imagePath)) {
+  71 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 93:18)
+ReferenceError: path is not defined
+    at Object.<anonymous> (sandbox.js:68:21)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:222)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:273:42)
+    at sandbox.js:93:18
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 68:21)
+
+  66 | Handlebars.registerHelper('getChartImageDataURI', function() {
+  67 |   // Assuming your images are in the "static" folder or similar
+> 68 |   const imagePath = path.resolve(process.cwd(), 'chartPercentage', '1.png');
+     |                     ^
+  69 |   
+  70 |   if (!fs.existsSync(imagePath)) {
+  71 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 93:18)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=2v2qkk43i5tm0a4, id=2v2qkk43i5tm0a4
+2025-12-05T22:12:14.634Z - warn: Rendering request 2 finished with error in 1829 ms rootId=2v2qkk43i5tm0a4, id=2v2qkk43i5tm0a4
+2025-12-05T22:18:58.247Z - info: Render request 3 queued for execution and waiting for available worker rootId=fx2wllb95i6zlf6, id=fx2wllb95i6zlf6
+2025-12-05T22:18:58.268Z - info: Starting rendering request 3 rootId=fx2wllb95i6zlf6, id=fx2wllb95i6zlf6
+2025-12-05T22:18:58.268Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=fx2wllb95i6zlf6, id=fx2wllb95i6zlf6
+2025-12-05T22:18:58.293Z - info: pptx generation is starting rootId=fx2wllb95i6zlf6, id=fx2wllb95i6zlf6
+2025-12-05T22:18:58.442Z - info: Starting rendering (child) request rootId=fx2wllb95i6zlf6, id=u51dgrqrn8j78ji
+2025-12-05T22:18:58.442Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=fx2wllb95i6zlf6, id=u51dgrqrn8j78ji
+2025-12-05T22:18:58.465Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 68:21)
+
+  66 | Handlebars.registerHelper('getChartImageDataURI', function() {
+  67 |   // Assuming your images are in the "static" folder or similar
+> 68 |   const imagePath = path.resolve(process.cwd(), 'chartPercentage', '1.png');
+     |                     ^
+  69 |   
+  70 |   if (!fs.existsSync(imagePath)) {
+  71 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 93:18)
+ReferenceError: path is not defined
+    at Object.<anonymous> (sandbox.js:68:21)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:222)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:273:42)
+    at sandbox.js:93:18
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=fx2wllb95i6zlf6, id=u51dgrqrn8j78ji
+2025-12-05T22:18:58.465Z - warn: Rendering (child) request finished with error in 220 ms rootId=fx2wllb95i6zlf6, id=u51dgrqrn8j78ji
+2025-12-05T22:18:58.465Z - warn: Error when processing render request 3
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 68:21)
+
+  66 | Handlebars.registerHelper('getChartImageDataURI', function() {
+  67 |   // Assuming your images are in the "static" folder or similar
+> 68 |   const imagePath = path.resolve(process.cwd(), 'chartPercentage', '1.png');
+     |                     ^
+  69 |   
+  70 |   if (!fs.existsSync(imagePath)) {
+  71 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 93:18)
+ReferenceError: path is not defined
+    at Object.<anonymous> (sandbox.js:68:21)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:222)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\worker.js:27:43)
+    at executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:273:42)
+    at sandbox.js:93:18
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) path is not defined
+
+(sandbox.js line 68:21)
+
+  66 | Handlebars.registerHelper('getChartImageDataURI', function() {
+  67 |   // Assuming your images are in the "static" folder or similar
+> 68 |   const imagePath = path.resolve(process.cwd(), 'chartPercentage', '1.png');
+     |                     ^
+  69 |   
+  70 |   if (!fs.existsSync(imagePath)) {
+  71 |     console.error(`Image not found: ${imagePath}`);
+
+(sandbox.js line 93:18)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=fx2wllb95i6zlf6, id=fx2wllb95i6zlf6
+2025-12-05T22:18:58.465Z - warn: Rendering request 3 finished with error in 220 ms rootId=fx2wllb95i6zlf6, id=fx2wllb95i6zlf6
+2025-12-05T22:19:12.200Z - info: Render request 4 queued for execution and waiting for available worker rootId=w3gv80tygwvem68, id=w3gv80tygwvem68
+2025-12-05T22:19:12.224Z - info: Starting rendering request 4 rootId=w3gv80tygwvem68, id=w3gv80tygwvem68
+2025-12-05T22:19:12.224Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=w3gv80tygwvem68, id=w3gv80tygwvem68
+2025-12-05T22:19:12.248Z - info: pptx generation is starting rootId=w3gv80tygwvem68, id=w3gv80tygwvem68
+2025-12-05T22:19:12.389Z - info: Starting rendering (child) request rootId=w3gv80tygwvem68, id=x2zp9225ofjsiad
+2025-12-05T22:19:12.389Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=w3gv80tygwvem68, id=x2zp9225ofjsiad
+2025-12-05T22:19:12.439Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+
+(system-helpers.js line 293:20)
+
+  291 |
+  292 |   const jsreport = require('jsreport-proxy')
+> 293 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  294 |   return assetVal
+  295 | }
+  296 |
+
+
+Error: Asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:121:24)
+    at async Object.read (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\worker.js:136:19)
+    at async Object.asset (system-helpers.js:293:20)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+wrapped by:
+Error: "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:460:15
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+    at async executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:354:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=w3gv80tygwvem68, id=x2zp9225ofjsiad
+2025-12-05T22:19:12.439Z - warn: Rendering (child) request finished with error in 244 ms rootId=w3gv80tygwvem68, id=x2zp9225ofjsiad
+2025-12-05T22:19:12.439Z - warn: Error when processing render request 4
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+
+(system-helpers.js line 293:20)
+
+  291 |
+  292 |   const jsreport = require('jsreport-proxy')
+> 293 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  294 |   return assetVal
+  295 | }
+  296 |
+
+
+Error: Asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:121:24)
+    at async Object.read (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\worker.js:136:19)
+    at async Object.asset (system-helpers.js:293:20)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+wrapped by:
+Error: "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:460:15
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+    at async executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:354:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+
+(system-helpers.js line 293:20)
+
+  291 |
+  292 |   const jsreport = require('jsreport-proxy')
+> 293 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  294 |   return assetVal
+  295 | }
+  296 |
+
+
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=w3gv80tygwvem68, id=w3gv80tygwvem68
+2025-12-05T22:19:12.439Z - warn: Rendering request 4 finished with error in 244 ms rootId=w3gv80tygwvem68, id=w3gv80tygwvem68
+2025-12-05T22:22:40.228Z - info: Render request 5 queued for execution and waiting for available worker rootId=jh2auqiwxwhve0l, id=jh2auqiwxwhve0l
+2025-12-05T22:22:40.247Z - info: Starting rendering request 5 rootId=jh2auqiwxwhve0l, id=jh2auqiwxwhve0l
+2025-12-05T22:22:40.248Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=jh2auqiwxwhve0l, id=jh2auqiwxwhve0l
+2025-12-05T22:22:40.268Z - info: pptx generation is starting rootId=jh2auqiwxwhve0l, id=jh2auqiwxwhve0l
+2025-12-05T22:22:40.381Z - info: Starting rendering (child) request rootId=jh2auqiwxwhve0l, id=4wkmktubag316go
+2025-12-05T22:22:40.381Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=jh2auqiwxwhve0l, id=4wkmktubag316go
+2025-12-05T22:22:40.443Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+
+(system-helpers.js line 293:20)
+
+  291 |
+  292 |   const jsreport = require('jsreport-proxy')
+> 293 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  294 |   return assetVal
+  295 | }
+  296 |
+
+
+Error: Asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:121:24)
+    at async Object.read (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\worker.js:136:19)
+    at async Object.asset (system-helpers.js:293:20)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+wrapped by:
+Error: "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:460:15
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+    at async executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:354:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=jh2auqiwxwhve0l, id=4wkmktubag316go
+2025-12-05T22:22:40.444Z - warn: Rendering (child) request finished with error in 220 ms rootId=jh2auqiwxwhve0l, id=4wkmktubag316go
+2025-12-05T22:22:40.444Z - warn: Error when processing render request 5
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+
+(system-helpers.js line 293:20)
+
+  291 |
+  292 |   const jsreport = require('jsreport-proxy')
+> 293 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  294 |   return assetVal
+  295 | }
+  296 |
+
+
+Error: Asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:121:24)
+    at async Object.read (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\worker.js:136:19)
+    at async Object.asset (system-helpers.js:293:20)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+wrapped by:
+Error: "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:460:15
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+    at async executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:354:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset /static/chartPercentage/1.png not found
+
+(system-helpers.js line 293:20)
+
+  291 |
+  292 |   const jsreport = require('jsreport-proxy')
+> 293 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  294 |   return assetVal
+  295 | }
+  296 |
+
+
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=jh2auqiwxwhve0l, id=jh2auqiwxwhve0l
+2025-12-05T22:22:40.444Z - warn: Rendering request 5 finished with error in 220 ms rootId=jh2auqiwxwhve0l, id=jh2auqiwxwhve0l
+2025-12-05T22:24:34.580Z - info: Render request 6 queued for execution and waiting for available worker rootId=q9i7xl5qy9sjc4y, id=q9i7xl5qy9sjc4y
+2025-12-05T22:24:34.601Z - info: Starting rendering request 6 rootId=q9i7xl5qy9sjc4y, id=q9i7xl5qy9sjc4y
+2025-12-05T22:24:34.601Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=q9i7xl5qy9sjc4y, id=q9i7xl5qy9sjc4y
+2025-12-05T22:24:34.628Z - info: pptx generation is starting rootId=q9i7xl5qy9sjc4y, id=q9i7xl5qy9sjc4y
+2025-12-05T22:24:34.736Z - info: Starting rendering (child) request rootId=q9i7xl5qy9sjc4y, id=88gkonowajatt46
+2025-12-05T22:24:34.737Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=q9i7xl5qy9sjc4y, id=88gkonowajatt46
+2025-12-05T22:24:34.785Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {#asyncHelperResult QEWrWD-}
+
+(system-helpers.js line 2320:11)
+
+  2318 |     !options.hash.src.startsWith('https://')
+  2319 |   ) {
+> 2320 |     throw new Error(
+       |           ^
+  2321 |       'pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got ' +
+  2322 |         options.hash.src
+  2323 |     )
+
+
+Error: pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {#asyncHelperResult QEWrWD-}
+    at Object.pptxImage (system-helpers.js:2320:11)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:446:23)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:23
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:423:37)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:108)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+wrapped by:
+Error: "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {#asyncHelperResult QEWrWD-}
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:448:15)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:23
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:423:37)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:108)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {#asyncHelperResult QEWrWD-}
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=q9i7xl5qy9sjc4y, id=88gkonowajatt46
+2025-12-05T22:24:34.785Z - warn: Rendering (child) request finished with error in 209 ms rootId=q9i7xl5qy9sjc4y, id=88gkonowajatt46
+2025-12-05T22:24:34.786Z - warn: Error when processing render request 6
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {#asyncHelperResult QEWrWD-}
+
+(system-helpers.js line 2320:11)
+
+  2318 |     !options.hash.src.startsWith('https://')
+  2319 |   ) {
+> 2320 |     throw new Error(
+       |           ^
+  2321 |       'pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got ' +
+  2322 |         options.hash.src
+  2323 |     )
+
+
+Error: pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {#asyncHelperResult QEWrWD-}
+    at Object.pptxImage (system-helpers.js:2320:11)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:446:23)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:23
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:423:37)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:108)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+    at ret (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:212:12)
+    at Object.execute (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:80:14)
+wrapped by:
+Error: "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {#asyncHelperResult QEWrWD-}
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:448:15)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:425:23
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at Object.<anonymous> (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:423:37)
+    at Object.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
+    at Object.main (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:44:108)
+    at main (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:208:32)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {#asyncHelperResult QEWrWD-}
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) "pptxImage" helper call failed
+(because) pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got {#asyncHelperResult QEWrWD-}
+
+(system-helpers.js line 2320:11)
+
+  2318 |     !options.hash.src.startsWith('https://')
+  2319 |   ) {
+> 2320 |     throw new Error(
+       |           ^
+  2321 |       'pptxImage helper requires src parameter to be valid data uri for png or jpeg image or a valid url. Got ' +
+  2322 |         options.hash.src
+  2323 |     )
+
+
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=q9i7xl5qy9sjc4y, id=q9i7xl5qy9sjc4y
+2025-12-05T22:24:34.786Z - warn: Rendering request 6 finished with error in 210 ms rootId=q9i7xl5qy9sjc4y, id=q9i7xl5qy9sjc4y
+2025-12-05T22:25:20.908Z - info: Render request 7 queued for execution and waiting for available worker rootId=zbcmok4x4nk4mvi, id=zbcmok4x4nk4mvi
+2025-12-05T22:25:20.930Z - info: Starting rendering request 7 rootId=zbcmok4x4nk4mvi, id=zbcmok4x4nk4mvi
+2025-12-05T22:25:20.930Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=zbcmok4x4nk4mvi, id=zbcmok4x4nk4mvi
+2025-12-05T22:25:20.956Z - info: pptx generation is starting rootId=zbcmok4x4nk4mvi, id=zbcmok4x4nk4mvi
+2025-12-05T22:25:21.054Z - info: Starting rendering (child) request rootId=zbcmok4x4nk4mvi, id=ozfn7hef7suqdsw
+2025-12-05T22:25:21.055Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=zbcmok4x4nk4mvi, id=ozfn7hef7suqdsw
+2025-12-05T22:25:21.094Z - warn: Error when processing (child) render request
+(because) error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset chartPercentage/1.png not found
+
+(system-helpers.js line 293:20)
+
+  291 |
+  292 |   const jsreport = require('jsreport-proxy')
+> 293 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  294 |   return assetVal
+  295 | }
+  296 |
+
+
+Error: Asset chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:121:24)
+    at async Object.read (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\worker.js:136:19)
+    at async Object.asset (system-helpers.js:293:20)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+wrapped by:
+Error: "asset" helper call failed
+(because) asset chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:460:15
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+    at async executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:354:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5) rootId=zbcmok4x4nk4mvi, id=ozfn7hef7suqdsw
+2025-12-05T22:25:21.094Z - warn: Rendering (child) request finished with error in 190 ms rootId=zbcmok4x4nk4mvi, id=ozfn7hef7suqdsw
+2025-12-05T22:25:21.095Z - warn: Error when processing render request 7
+(because) error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset chartPercentage/1.png not found
+
+(system-helpers.js line 293:20)
+
+  291 |
+  292 |   const jsreport = require('jsreport-proxy')
+> 293 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  294 |   return assetVal
+  295 | }
+  296 |
+
+
+Error: Asset chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at readAsset (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\assetsShared.js:121:24)
+    at async Object.read (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-assets\lib\worker.js:136:19)
+    at async Object.asset (system-helpers.js:293:20)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+wrapped by:
+Error: "asset" helper call failed
+(because) asset chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at getEnhancedHelperError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:442:54)
+    at C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:460:15
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:284:28
+    at async Promise.all (index 0)
+    at async executionFn (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:283:11)
+    at async run (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\createSandbox.js:137:16)
+    at async WorkerReporter.runInSandbox [as _runInSandbox] (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\sandbox\runInSandbox.js:214:14)
+    at async executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:354:16)
+wrapped by:
+Error: Error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset chartPercentage/1.png not found
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at executeEngine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:377:35)
+    at async engine.engine (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\executeEngine.js:162:14)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:61:23)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async WorkerReporter.render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:182:12)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:61:17)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+wrapped by:
+Error: Error while executing pptx recipe
+(because) error when evaluating engine handlebars for template anonymous
+(because) "asset" helper call failed
+(because) asset chartPercentage/1.png not found
+
+(system-helpers.js line 293:20)
+
+  291 |
+  292 |   const jsreport = require('jsreport-proxy')
+> 293 |   const assetVal = await jsreport.assets.read(path, encoding)
+      |                    ^
+  294 |   return assetVal
+  295 | }
+  296 |
+
+
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\createError.js:10:13)
+    at WorkerReporter.createError (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\shared\reporter.js:53:12)
+    at module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\processPptx.js:113:20)
+    at async module.exports (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-pptx\lib\recipe.js:37:18)
+    at async invokeRender (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:93:5)
+    at async WorkerReporter._render (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\render\render.js:148:7)
+    at async C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\worker\reporter.js:233:24
+    at async processAndResponse (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\advanced-workers\lib\workerHandler.js:42:17) rootId=zbcmok4x4nk4mvi, id=zbcmok4x4nk4mvi
+2025-12-05T22:25:21.095Z - warn: Rendering request 7 finished with error in 191 ms rootId=zbcmok4x4nk4mvi, id=zbcmok4x4nk4mvi
+2025-12-05T22:25:37.251Z - info: Closing jsreport instance
+2025-12-05T22:25:37.290Z - info: jsreport instance has been closed
