@@ -41,6 +41,9 @@
     "searchOnDiskIfNotFoundInStore": false,
    
     "publicAccessEnabled": true
-  }
+  },
+   "pptx": {
+      "enabled": true
+    }
   }
 }

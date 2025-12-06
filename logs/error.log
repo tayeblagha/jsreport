@@ -46,3 +46,12 @@ Error: "pptxImage" helper call failed
     at String.wrapper (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\internal\wrapHelper.js:15:19)
     at 1 (eval at compile (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-handlebars\lib\handlebarsEngine.js:35:30), <anonymous>:11:138)
     at Object.prog (C:\Users\pc\Pictures\jsreportapp\node_modules\handlebars\dist\cjs\handlebars\runtime.js:268:12) rootId=m206qf86vg2d7r8, id=m206qf86vg2d7r8
+2025-12-06T11:02:22.341Z - error: Error occurred during reporter init: Error: Error when loading extension pptx@0.7.6
+Error: Extension "pptx" is not compatible with "core" extension. Missing ".requires" information in "pptx" definition
+    at validateMinimalVersion (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\extensions\validateMinimalVersion.js:24:11)
+    at Object._useOne (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:158:9)
+    at Object._useMany (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:99:38)
+    at async MainReporter.init (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:207:7)
+    at Object._useOne (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:248:15)
+    at Object._useMany (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\extensions\extensionsManager.js:99:38)
+    at async MainReporter.init (C:\Users\pc\Pictures\jsreportapp\node_modules\@jsreport\jsreport-core\lib\main\reporter.js:207:7)
