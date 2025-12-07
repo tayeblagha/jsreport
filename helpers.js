@@ -136,7 +136,7 @@ Handlebars.registerHelper('competencyHighlights', function(gender, technical, be
     if (top.length === 2) return `${pronoun} excelled in ${top[0]} and ${top[1]}.`;
 
     // For 3 items, add commas and "and" before the last
-    return `${pronoun} excelled in ${top[0]}, ${top[1]} and ${top[2]}.`;
+    return `${pronoun} excelled in ${top[0]}, ${top[1]}, and ${top[2]}.`;
 });
 
 // Helper for areas needing improvement sentence (bottom 3 with "and")
@@ -157,5 +157,160 @@ Handlebars.registerHelper('competencyImprovements', function(technical, behavior
     if (bottom.length === 2) return `Areas for improvement include ${bottom[0]} and ${bottom[1]}.`;
 
     // For 3 items, add commas and "and" before the last
-    return `Areas for improvement include ${bottom[0]}, ${bottom[1]} and ${bottom[2]}.`;
+    return `Areas for improvement include ${bottom[0]}, ${bottom[1]}, and ${bottom[2]}.`;
 });
+
+
+
+
+
+Handlebars.registerHelper('toRadarChart', function(section) {
+  if (!section || !section.insights) return {
+    labels: [],
+    datasets: [{ label: "Series 1", data: [] }]
+  };
+
+  const labels = section.insights.map(i => i.name);
+  const data = section.insights.map(i => Number(i.score) || 0);  // keep normalized (0–1)
+
+  return {
+    labels: labels,
+    datasets: [
+      {
+        label: "Series 1",
+        data: data
+      }
+    ]
+  };
+});
+
+// small helpers
+function getPrefix(gender) {
+  return gender === 'Female' ? 'Ms.' : gender === 'Male' ? 'Mr.' : '';
+}
+
+function getPronouns(gender) {
+  if (gender === 'Female') return { subject: 'She', object: 'her', possessive: 'her' };
+  if (gender === 'Male') return { subject: 'He', object: 'him', possessive: 'his' };
+  return { subject: 'They', object: 'them', possessive: 'their' };
+}
+
+function capitalizeName(name = '') {
+  return name
+    .toString()
+    .trim()
+    .split(/\s+/)
+    .map(w => w[0] ? w[0].toUpperCase() + w.slice(1) : '')
+    .join(' ');
+}
+
+function normalizePercent(v) {
+  if (v == null || isNaN(v)) return 0;
+  const num = Number(v);
+  return num <= 1 ? Math.round(num * 100) : Math.round(num);
+}
+
+function getScoreDescriptor(percent) {
+  const p = normalizePercent(percent);
+  if (p >= 90) return 'outstanding';
+  if (p >= 80) return 'excellent';
+  if (p >= 70) return 'good';
+  if (p >= 50) return 'medium';
+  return 'needs improvement';
+}
+
+function buildInsightsFromInterview(interview) {
+  if (!interview) return [];
+  if (Array.isArray(interview.insights) && interview.insights.length) {
+    return interview.insights.map(it => ({
+      name: it.name,
+      score: normalizePercent(it.score)
+    }));
+  }
+
+  const fallbackKeys = {
+    toneOfCommunication: 'Tone of Communication',
+    articulation: 'Articulation',
+    pronunciation: 'Pronunciation',
+    posture: 'Posture',
+    messageRelevance: 'Message Relevance'
+  };
+
+  return Object.keys(fallbackKeys)
+    .filter(k => interview[k] != null)
+    .map(k => ({ name: fallbackKeys[k], score: normalizePercent(interview[k]) }));
+}
+// ... keep your other helpers (getPrefix, getPronouns, capitalizeName, normalizePercent, getScoreDescriptor, buildInsightsFromInterview) ...
+
+function generateInterviewSummary(interview, gender, fullName) {
+  if (!interview) return '';
+
+  const prefix = getPrefix(gender);
+  const name = capitalizeName(fullName || interview.name || '');
+  const nameWithPrefix = prefix ? `${prefix} ${name}` : name || 'The candidate';
+  const pronouns = getPronouns(gender);
+
+  const overallRaw = interview.score != null ? interview.score : interview.overallScore;
+  const overallScore = normalizePercent(overallRaw);
+  const overallDescriptor = getScoreDescriptor(overallScore);
+
+  const insights = buildInsightsFromInterview(interview);
+  const finalOverallSentence = `${nameWithPrefix} achieved an Overall Communication Quality score of ${overallScore}%. This score indicates ${overallDescriptor} communication skills.`;
+
+  if (!insights.length) {
+    return `${nameWithPrefix} achieved an overall score of ${overallScore}%, indicating ${overallDescriptor} communication skills. ${finalOverallSentence}`;
+  }
+
+  const sorted = [...insights].sort((a, b) => b.score - a.score);
+  const top = sorted.slice(0, 2);
+  const bottom = sorted.slice(-2).reverse(); // lowest two
+  const medium = sorted.slice(2, -2); // between top and bottom
+
+  function joinMetrics(list) {
+    if (!list.length) return '';
+    if (list.length === 1) return `${list[0].name} (${list[0].score}%)`;
+    return list.map(it => `${it.name} (${it.score}%)`).join(' and ');
+  }
+
+  function joinMetricsMultiple(list) {
+    if (!list.length) return '';
+    if (list.length === 1) return `${list[0].name} (${list[0].score}%)`;
+    const last = list[list.length - 1];
+    const rest = list.slice(0, -1);
+    return `${rest.map(it => `${it.name} (${it.score}%)`).join(', ')}, and ${last.name} (${last.score}%)`;
+  }
+
+  const strengthsStr = joinMetrics(top);
+  const improvementsStr = joinMetrics(bottom);
+  const mediumStr = joinMetricsMultiple(medium);
+
+  let parts = [];
+
+  if (strengthsStr) {
+    parts.push(`${nameWithPrefix} performed particularly well in ${strengthsStr}.`);
+  }
+
+  if (mediumStr) {
+    if (medium.length > 1) {
+      parts.push(`${pronouns.subject} also got in ${mediumStr}, which show areas of good performance that have potential for further development.`);
+    } else {
+      parts.push(`${pronouns.subject} also got in ${mediumStr}, which shows an area of good performance that has potential for further development.`);
+    }
+  }
+
+  if (improvementsStr) {
+    parts.push(`Areas for improvement include ${improvementsStr}.`);
+  }
+
+  parts.push(finalOverallSentence);
+
+  return parts.join(' ');
+}
+
+
+// Handlebars helper
+Handlebars.registerHelper('interviewSummary', function(interview, gender, fullName) {
+  return new Handlebars.SafeString(generateInterviewSummary(interview, gender, fullName));
+});
+
+
