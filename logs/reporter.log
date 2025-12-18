@@ -16036,3 +16036,255 @@ Expecting 'CLOSE_RAW_BLOCK', 'CLOSE', 'CLOSE_UNESCAPED', 'OPEN_SEXPR', 'CLOSE_SE
 2025-12-07T21:46:20.419Z - info: Rendering request 3 finished in 4433 ms rootId=oko4kbhjuiejwbh, id=oko4kbhjuiejwbh
 2025-12-07T21:50:47.041Z - info: Closing jsreport instance
 2025-12-07T21:50:47.069Z - info: jsreport instance has been closed
+2025-12-08T08:05:43.742Z - info: Initializing jsreport (version: 4.10.1, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-12-08T08:05:43.746Z - info: Searching for available extensions in C:\Users\pc\Pictures\jsreportapp\
+2025-12-08T08:05:43.759Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\pc\Pictures\jsreportapp\
+2025-12-08T08:05:44.416Z - info: Found 35 extension(s)
+2025-12-08T08:05:44.527Z - info: Using extension base@4.0.0
+2025-12-08T08:05:44.532Z - info: Using extension child-templates@4.1.0
+2025-12-08T08:05:44.536Z - info: Using extension cli@4.1.2
+2025-12-08T08:05:44.542Z - info: Using extension components@4.0.2
+2025-12-08T08:05:44.545Z - info: Using extension data@4.1.0
+2025-12-08T08:05:44.547Z - info: Using extension express@4.2.3
+2025-12-08T08:05:45.111Z - info: Using extension freeze@4.0.0
+2025-12-08T08:05:45.114Z - info: Using extension fs-store@4.1.1
+2025-12-08T08:05:45.337Z - info: Using extension handlebars@4.0.1
+2025-12-08T08:05:45.340Z - info: Using extension import-export@4.0.8
+2025-12-08T08:05:45.363Z - info: Using extension jsrender@4.0.0
+2025-12-08T08:05:45.364Z - info: Using extension licensing@4.0.5
+2025-12-08T08:05:45.455Z - info: Using extension localization@4.0.1
+2025-12-08T08:05:45.457Z - info: Using extension npm@4.0.1
+2025-12-08T08:05:45.465Z - info: Using extension pdf-utils@4.4.1
+2025-12-08T08:05:45.471Z - info: Using extension reports@4.1.5
+2025-12-08T08:05:45.475Z - info: Using extension tags@4.0.1
+2025-12-08T08:05:45.480Z - info: Using extension text@4.0.2
+2025-12-08T08:05:45.481Z - info: Using extension version-control@4.1.1
+2025-12-08T08:05:45.495Z - info: Using extension assets@4.2.3
+2025-12-08T08:05:45.516Z - info: Using extension authorization@4.1.0
+2025-12-08T08:05:45.526Z - info: Using extension browser-client@4.1.0
+2025-12-08T08:05:45.530Z - info: Using extension chrome-pdf@4.3.0
+2025-12-08T08:05:45.540Z - info: Using extension docx@4.9.0
+2025-12-08T08:05:45.545Z - info: Using extension html-to-xlsx@4.2.4
+2025-12-08T08:05:46.053Z - info: html-to-xlsx detected chrome as available html engine
+2025-12-08T08:05:46.053Z - info: Using extension pptx@4.4.2
+2025-12-08T08:05:46.057Z - info: Using extension scheduling@4.1.0
+2025-12-08T08:05:46.100Z - info: Using extension scripts@4.2.0
+2025-12-08T08:05:46.103Z - info: Using extension static-pdf@4.1.0
+2025-12-08T08:05:46.105Z - info: Using extension studio@4.3.2
+2025-12-08T08:05:46.258Z - info: Using extension xlsx@4.5.1
+2025-12-08T08:05:46.261Z - info: Using extension public-templates@4.0.0
+2025-12-08T08:05:46.264Z - info: Using extension sample-template@4.0.2
+2025-12-08T08:05:46.267Z - info: Using extension studio-theme-dark@4.0.0
+2025-12-08T08:05:46.270Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2025-12-08T08:05:46.271Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-12-08T08:05:46.272Z - info: Using fs provider for template store.
+2025-12-08T08:05:46.279Z - info: fs store is persisting using fs for C:\Users\pc\Pictures\jsreportapp\data
+2025-12-08T08:05:46.284Z - info: fs store is loading data
+2025-12-08T08:05:46.315Z - info: fs store is initialized successfully
+2025-12-08T08:05:46.331Z - info: Creating default express app.
+2025-12-08T08:05:46.369Z - info: jsreport server successfully started on http port: 5488
+2025-12-08T08:05:46.371Z - info: Verifying license key free
+2025-12-08T08:05:46.372Z - info: Using free license
+2025-12-08T08:05:46.376Z - info: Initializing worker threads
+2025-12-08T08:05:46.694Z - info: 2 worker threads initialized in 318ms
+2025-12-08T08:05:46.695Z - info: Starting temp files cleanup with 180000ms threshold
+2025-12-08T08:05:46.695Z - info: reporter initialized
+2025-12-08T08:06:00.447Z - info: Render request 1 queued for execution and waiting for available worker rootId=v4ub61y6s6wjagm, id=v4ub61y6s6wjagm
+2025-12-08T08:06:00.509Z - info: Starting rendering request 1 rootId=v4ub61y6s6wjagm, id=v4ub61y6s6wjagm
+2025-12-08T08:06:00.511Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=v4ub61y6s6wjagm, id=v4ub61y6s6wjagm
+2025-12-08T08:06:02.598Z - info: pptx generation is starting rootId=v4ub61y6s6wjagm, id=v4ub61y6s6wjagm
+2025-12-08T08:06:04.440Z - info: Starting rendering (child) request rootId=v4ub61y6s6wjagm, id=jcbn45nlj99veuu
+2025-12-08T08:06:04.441Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=v4ub61y6s6wjagm, id=jcbn45nlj99veuu
+2025-12-08T08:06:04.653Z - info: Rendering (child) request finished in 4213 ms rootId=v4ub61y6s6wjagm, id=jcbn45nlj99veuu
+2025-12-08T08:06:11.003Z - info: pptx generation was finished rootId=v4ub61y6s6wjagm, id=v4ub61y6s6wjagm
+2025-12-08T08:06:11.026Z - info: Rendering request 1 finished in 10586 ms rootId=v4ub61y6s6wjagm, id=v4ub61y6s6wjagm
+2025-12-08T08:06:11.148Z - info: Render request 2 queued for execution and waiting for available worker rootId=9pqliw0ob9yvlop, id=9pqliw0ob9yvlop
+2025-12-08T08:06:11.208Z - info: Starting rendering request 2 rootId=9pqliw0ob9yvlop, id=9pqliw0ob9yvlop
+2025-12-08T08:06:11.211Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=9pqliw0ob9yvlop, id=9pqliw0ob9yvlop
+2025-12-08T08:06:12.808Z - info: pptx generation is starting rootId=9pqliw0ob9yvlop, id=9pqliw0ob9yvlop
+2025-12-08T08:06:14.608Z - info: Starting rendering (child) request rootId=9pqliw0ob9yvlop, id=wezorurs9f33od7
+2025-12-08T08:06:14.608Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=9pqliw0ob9yvlop, id=wezorurs9f33od7
+2025-12-08T08:06:14.850Z - info: Rendering (child) request finished in 3705 ms rootId=9pqliw0ob9yvlop, id=wezorurs9f33od7
+2025-12-08T08:06:19.581Z - info: pptx generation was finished rootId=9pqliw0ob9yvlop, id=9pqliw0ob9yvlop
+2025-12-08T08:06:19.601Z - info: Rendering request 2 finished in 8456 ms rootId=9pqliw0ob9yvlop, id=9pqliw0ob9yvlop
+2025-12-08T08:28:31.734Z - info: Render request 3 queued for execution and waiting for available worker rootId=q51mhja9u5l623b, id=q51mhja9u5l623b
+2025-12-08T08:28:31.775Z - info: Starting rendering request 3 rootId=q51mhja9u5l623b, id=q51mhja9u5l623b
+2025-12-08T08:28:31.775Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=q51mhja9u5l623b, id=q51mhja9u5l623b
+2025-12-08T08:28:31.818Z - info: pptx generation is starting rootId=q51mhja9u5l623b, id=q51mhja9u5l623b
+2025-12-08T08:28:33.528Z - info: Starting rendering (child) request rootId=q51mhja9u5l623b, id=m0cv9crv1er88a4
+2025-12-08T08:28:33.528Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=q51mhja9u5l623b, id=m0cv9crv1er88a4
+2025-12-08T08:28:33.705Z - info: Rendering (child) request finished in 1983 ms rootId=q51mhja9u5l623b, id=m0cv9crv1er88a4
+2025-12-08T08:28:39.077Z - info: pptx generation was finished rootId=q51mhja9u5l623b, id=q51mhja9u5l623b
+2025-12-08T08:28:39.086Z - info: Rendering request 3 finished in 7364 ms rootId=q51mhja9u5l623b, id=q51mhja9u5l623b
+2025-12-08T08:34:40.779Z - info: Initializing jsreport (version: 4.10.1, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-12-08T08:34:40.783Z - info: Searching for available extensions in C:\Users\pc\Pictures\jsreportapp\
+2025-12-08T08:34:40.787Z - info: Extensions location cache C:\Users\pc\AppData\Local\Temp\jsreport\core\locations.json contains older information, crawling
+2025-12-08T08:34:44.937Z - info: Found 35 extension(s)
+2025-12-08T08:34:45.001Z - info: Using extension base@4.0.0
+2025-12-08T08:34:45.009Z - info: Using extension child-templates@4.1.0
+2025-12-08T08:34:45.014Z - info: Using extension cli@4.1.2
+2025-12-08T08:34:45.017Z - info: Using extension components@4.0.2
+2025-12-08T08:34:45.019Z - info: Using extension data@4.1.0
+2025-12-08T08:34:45.021Z - info: Using extension express@4.2.3
+2025-12-08T08:34:45.291Z - info: Using extension freeze@4.0.0
+2025-12-08T08:34:45.294Z - info: Using extension fs-store@4.1.1
+2025-12-08T08:34:45.467Z - info: Using extension handlebars@4.0.1
+2025-12-08T08:34:45.470Z - info: Using extension import-export@4.0.8
+2025-12-08T08:34:45.480Z - info: Using extension jsrender@4.0.0
+2025-12-08T08:34:45.483Z - info: Using extension licensing@4.0.5
+2025-12-08T08:34:45.536Z - info: Using extension localization@4.0.1
+2025-12-08T08:34:45.539Z - info: Using extension npm@4.0.1
+2025-12-08T08:34:45.544Z - info: Using extension pdf-utils@4.4.1
+2025-12-08T08:34:45.553Z - info: Using extension reports@4.1.5
+2025-12-08T08:34:45.557Z - info: Using extension tags@4.0.1
+2025-12-08T08:34:45.560Z - info: Using extension text@4.0.2
+2025-12-08T08:34:45.561Z - info: Using extension version-control@4.1.1
+2025-12-08T08:34:45.574Z - info: Using extension assets@4.2.3
+2025-12-08T08:34:45.589Z - info: Using extension authorization@4.1.0
+2025-12-08T08:34:45.594Z - info: Using extension browser-client@4.1.0
+2025-12-08T08:34:45.601Z - info: Using extension chrome-pdf@4.3.0
+2025-12-08T08:34:45.607Z - info: Using extension docx@4.9.0
+2025-12-08T08:34:45.610Z - info: Using extension html-to-xlsx@4.2.4
+2025-12-08T08:34:45.884Z - info: html-to-xlsx detected chrome as available html engine
+2025-12-08T08:34:45.885Z - info: Using extension pptx@4.4.2
+2025-12-08T08:34:45.889Z - info: Using extension scheduling@4.1.0
+2025-12-08T08:34:45.916Z - info: Using extension scripts@4.2.0
+2025-12-08T08:34:45.918Z - info: Using extension static-pdf@4.1.0
+2025-12-08T08:34:45.919Z - info: Using extension studio@4.3.2
+2025-12-08T08:34:46.020Z - info: Using extension xlsx@4.5.1
+2025-12-08T08:34:46.022Z - info: Using extension public-templates@4.0.0
+2025-12-08T08:34:46.025Z - info: Using extension sample-template@4.0.2
+2025-12-08T08:34:46.027Z - info: Using extension studio-theme-dark@4.0.0
+2025-12-08T08:34:46.028Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2025-12-08T08:34:46.029Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-12-08T08:34:46.029Z - info: Using fs provider for template store.
+2025-12-08T08:34:46.034Z - info: fs store is persisting using fs for C:\Users\pc\Pictures\jsreportapp\data
+2025-12-08T08:34:46.042Z - info: fs store is loading data
+2025-12-08T08:34:46.074Z - info: fs store is initialized successfully
+2025-12-08T08:42:27.986Z - info: Render request 4 queued for execution and waiting for available worker rootId=3zml91e3u0go2xq, id=3zml91e3u0go2xq
+2025-12-08T08:42:28.048Z - info: Starting rendering request 4 rootId=3zml91e3u0go2xq, id=3zml91e3u0go2xq
+2025-12-08T08:42:28.049Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=3zml91e3u0go2xq, id=3zml91e3u0go2xq
+2025-12-08T08:42:28.100Z - info: pptx generation is starting rootId=3zml91e3u0go2xq, id=3zml91e3u0go2xq
+2025-12-08T08:42:29.744Z - info: Starting rendering (child) request rootId=3zml91e3u0go2xq, id=8agfkx2ft59urn3
+2025-12-08T08:42:29.744Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=3zml91e3u0go2xq, id=8agfkx2ft59urn3
+2025-12-08T08:42:29.956Z - info: Rendering (child) request finished in 1974 ms rootId=3zml91e3u0go2xq, id=8agfkx2ft59urn3
+2025-12-08T08:42:34.789Z - info: pptx generation was finished rootId=3zml91e3u0go2xq, id=3zml91e3u0go2xq
+2025-12-08T08:42:34.799Z - info: Rendering request 4 finished in 6817 ms rootId=3zml91e3u0go2xq, id=3zml91e3u0go2xq
+2025-12-08T11:03:14.389Z - info: Initializing jsreport (version: 4.10.1, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-12-08T11:03:14.392Z - info: Searching for available extensions in C:\Users\pc\Pictures\jsreportapp\
+2025-12-08T11:03:14.402Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\pc\Pictures\jsreportapp\
+2025-12-08T11:03:15.258Z - info: Found 35 extension(s)
+2025-12-08T11:03:15.389Z - info: Using extension base@4.0.0
+2025-12-08T11:03:15.395Z - info: Using extension child-templates@4.1.0
+2025-12-08T11:03:15.400Z - info: Using extension cli@4.1.2
+2025-12-08T11:03:15.407Z - info: Using extension components@4.0.2
+2025-12-08T11:03:15.410Z - info: Using extension data@4.1.0
+2025-12-08T11:03:15.412Z - info: Using extension express@4.2.3
+2025-12-08T11:03:16.164Z - info: Using extension freeze@4.0.0
+2025-12-08T11:03:16.167Z - info: Using extension fs-store@4.1.1
+2025-12-08T11:03:16.625Z - info: Using extension handlebars@4.0.1
+2025-12-08T11:03:16.629Z - info: Using extension import-export@4.0.8
+2025-12-08T11:03:16.665Z - info: Using extension jsrender@4.0.0
+2025-12-08T11:03:16.667Z - info: Using extension licensing@4.0.5
+2025-12-08T11:03:16.840Z - info: Using extension localization@4.0.1
+2025-12-08T11:03:16.843Z - info: Using extension npm@4.0.1
+2025-12-08T11:03:16.861Z - info: Using extension pdf-utils@4.4.1
+2025-12-08T11:03:16.868Z - info: Using extension reports@4.1.5
+2025-12-08T11:03:16.874Z - info: Using extension tags@4.0.1
+2025-12-08T11:03:16.879Z - info: Using extension text@4.0.2
+2025-12-08T11:03:16.881Z - info: Using extension version-control@4.1.1
+2025-12-08T11:03:16.904Z - info: Using extension assets@4.2.3
+2025-12-08T11:03:16.946Z - info: Using extension authorization@4.1.0
+2025-12-08T11:03:16.971Z - info: Using extension browser-client@4.1.0
+2025-12-08T11:03:16.987Z - info: Using extension chrome-pdf@4.3.0
+2025-12-08T11:03:16.998Z - info: Using extension docx@4.9.0
+2025-12-08T11:03:17.005Z - info: Using extension html-to-xlsx@4.2.4
+2025-12-08T11:03:17.898Z - info: html-to-xlsx detected chrome as available html engine
+2025-12-08T11:03:17.899Z - info: Using extension pptx@4.4.2
+2025-12-08T11:03:17.906Z - info: Using extension scheduling@4.1.0
+2025-12-08T11:03:18.003Z - info: Using extension scripts@4.2.0
+2025-12-08T11:03:18.009Z - info: Using extension static-pdf@4.1.0
+2025-12-08T11:03:18.012Z - info: Using extension studio@4.3.2
+2025-12-08T11:03:18.453Z - info: Using extension xlsx@4.5.1
+2025-12-08T11:03:18.479Z - info: Using extension public-templates@4.0.0
+2025-12-08T11:03:18.487Z - info: Using extension sample-template@4.0.2
+2025-12-08T11:03:18.502Z - info: Using extension studio-theme-dark@4.0.0
+2025-12-08T11:03:18.506Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2025-12-08T11:03:18.506Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-12-08T11:03:18.506Z - info: Using fs provider for template store.
+2025-12-08T11:03:18.513Z - info: fs store is persisting using fs for C:\Users\pc\Pictures\jsreportapp\data
+2025-12-08T11:03:18.526Z - info: fs store is loading data
+2025-12-08T11:03:18.595Z - info: fs store is initialized successfully
+2025-12-08T11:03:18.635Z - info: Creating default express app.
+2025-12-08T11:03:18.765Z - info: jsreport server successfully started on http port: 5488
+2025-12-08T11:03:18.772Z - info: Verifying license key free
+2025-12-08T11:03:18.776Z - info: Using free license
+2025-12-08T11:03:18.785Z - info: Initializing worker threads
+2025-12-08T11:03:19.561Z - info: 2 worker threads initialized in 776ms
+2025-12-08T11:03:19.562Z - info: Starting temp files cleanup with 180000ms threshold
+2025-12-08T11:03:19.564Z - info: reporter initialized
+2025-12-08T11:03:55.736Z - info: Initializing jsreport (version: 4.10.1, configuration file: jsreport.config.json, nodejs: 22.11.0)
+2025-12-08T11:03:55.739Z - info: Searching for available extensions in C:\Users\pc\Pictures\jsreportapp\
+2025-12-08T11:03:55.744Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\pc\Pictures\jsreportapp\
+2025-12-08T11:03:55.868Z - info: Found 35 extension(s)
+2025-12-08T11:03:55.933Z - info: Using extension base@4.0.0
+2025-12-08T11:03:55.939Z - info: Using extension child-templates@4.1.0
+2025-12-08T11:03:55.942Z - info: Using extension cli@4.1.2
+2025-12-08T11:03:55.945Z - info: Using extension components@4.0.2
+2025-12-08T11:03:55.946Z - info: Using extension data@4.1.0
+2025-12-08T11:03:55.947Z - info: Using extension express@4.2.3
+2025-12-08T11:03:56.166Z - info: Using extension freeze@4.0.0
+2025-12-08T11:03:56.168Z - info: Using extension fs-store@4.1.1
+2025-12-08T11:03:56.263Z - info: Using extension handlebars@4.0.1
+2025-12-08T11:03:56.265Z - info: Using extension import-export@4.0.8
+2025-12-08T11:03:56.273Z - info: Using extension jsrender@4.0.0
+2025-12-08T11:03:56.274Z - info: Using extension licensing@4.0.5
+2025-12-08T11:03:56.316Z - info: Using extension localization@4.0.1
+2025-12-08T11:03:56.318Z - info: Using extension npm@4.0.1
+2025-12-08T11:03:56.322Z - info: Using extension pdf-utils@4.4.1
+2025-12-08T11:03:56.326Z - info: Using extension reports@4.1.5
+2025-12-08T11:03:56.330Z - info: Using extension tags@4.0.1
+2025-12-08T11:03:56.331Z - info: Using extension text@4.0.2
+2025-12-08T11:03:56.332Z - info: Using extension version-control@4.1.1
+2025-12-08T11:03:56.342Z - info: Using extension assets@4.2.3
+2025-12-08T11:03:56.352Z - info: Using extension authorization@4.1.0
+2025-12-08T11:03:56.361Z - info: Using extension browser-client@4.1.0
+2025-12-08T11:03:56.367Z - info: Using extension chrome-pdf@4.3.0
+2025-12-08T11:03:56.373Z - info: Using extension docx@4.9.0
+2025-12-08T11:03:56.378Z - info: Using extension html-to-xlsx@4.2.4
+2025-12-08T11:03:56.583Z - info: html-to-xlsx detected chrome as available html engine
+2025-12-08T11:03:56.583Z - info: Using extension pptx@4.4.2
+2025-12-08T11:03:56.586Z - info: Using extension scheduling@4.1.0
+2025-12-08T11:03:56.610Z - info: Using extension scripts@4.2.0
+2025-12-08T11:03:56.611Z - info: Using extension static-pdf@4.1.0
+2025-12-08T11:03:56.612Z - info: Using extension studio@4.3.2
+2025-12-08T11:03:56.702Z - info: Using extension xlsx@4.5.1
+2025-12-08T11:03:56.706Z - info: Using extension public-templates@4.0.0
+2025-12-08T11:03:56.708Z - info: Using extension sample-template@4.0.2
+2025-12-08T11:03:56.713Z - info: Using extension studio-theme-dark@4.0.0
+2025-12-08T11:03:56.715Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2025-12-08T11:03:56.715Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2025-12-08T11:03:56.715Z - info: Using fs provider for template store.
+2025-12-08T11:03:56.720Z - info: fs store is persisting using fs for C:\Users\pc\Pictures\jsreportapp\data
+2025-12-08T11:03:56.725Z - info: fs store is loading data
+2025-12-08T11:03:56.753Z - info: fs store is initialized successfully
+2025-12-08T11:03:56.772Z - info: Creating default express app.
+2025-12-08T11:03:56.787Z - info: jsreport server successfully started on http port: 5488
+2025-12-08T11:03:56.789Z - info: Verifying license key free
+2025-12-08T11:03:56.790Z - info: Using free license
+2025-12-08T11:03:56.794Z - info: Initializing worker threads
+2025-12-08T11:03:57.035Z - info: 2 worker threads initialized in 241ms
+2025-12-08T11:03:57.036Z - info: Starting temp files cleanup with 180000ms threshold
+2025-12-08T11:03:57.037Z - info: reporter initialized
+2025-12-08T11:04:00.585Z - info: Render request 1 queued for execution and waiting for available worker rootId=ct5gs37hvrz4y5p, id=ct5gs37hvrz4y5p
+2025-12-08T11:04:00.686Z - info: Starting rendering request 1 rootId=ct5gs37hvrz4y5p, id=ct5gs37hvrz4y5p
+2025-12-08T11:04:00.688Z - info: Rendering anonymous template { recipe: pptx, engine: handlebars } rootId=ct5gs37hvrz4y5p, id=ct5gs37hvrz4y5p
+2025-12-08T11:04:02.213Z - info: pptx generation is starting rootId=ct5gs37hvrz4y5p, id=ct5gs37hvrz4y5p
+2025-12-08T11:04:03.464Z - info: Starting rendering (child) request rootId=ct5gs37hvrz4y5p, id=849qnww1onjbhdc
+2025-12-08T11:04:03.464Z - info: Rendering anonymous template { recipe: html, engine: handlebars } rootId=ct5gs37hvrz4y5p, id=849qnww1onjbhdc
+2025-12-08T11:04:03.640Z - info: Rendering (child) request finished in 3060 ms rootId=ct5gs37hvrz4y5p, id=849qnww1onjbhdc
+2025-12-08T11:04:09.209Z - info: pptx generation was finished rootId=ct5gs37hvrz4y5p, id=ct5gs37hvrz4y5p
+2025-12-08T11:04:09.222Z - info: Rendering request 1 finished in 8642 ms rootId=ct5gs37hvrz4y5p, id=ct5gs37hvrz4y5p
+2025-12-08T12:25:22.102Z - info: fs store is loading data
+2025-12-08T12:29:47.350Z - info: Closing jsreport instance
+2025-12-08T12:29:47.417Z - info: jsreport instance has been closed
