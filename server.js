@@ -6,16 +6,7 @@ const multer = require('multer');
 // synchronous fs
 const fssync = require('fs');
 
-// --- Utility: create colored rectangle as SVG data URI ---
-function makeRectangleSVGDataURI(widthPx = 200, heightPx = 100, fill = '#3465a4') {
-  const svg = `
-    <svg xmlns="http://www.w3.org/2000/svg" width="${widthPx}" height="${heightPx}" viewBox="0 0 ${widthPx} ${heightPx}">
-      <rect width="${widthPx}" height="${heightPx}" rx="6" ry="6" fill="${fill}" />
-    </svg>`.trim();
 
-  const base64 = Buffer.from(svg).toString('base64');
-  return `data:image/svg+xml;base64,${base64}`;
-}
 
 // Initialize Express app
 const app = express();
@@ -62,12 +53,7 @@ app.get('/generate-ppt', async (req, res) => {
       });
     }
 
-    // --- Add colored rectangle data URI for template ---
-    data.coloredRectangleDataURI = makeRectangleSVGDataURI(
-      300,                        // width in px
-      120,                        // height in px
-      data.rectColor || '#3465a4' // color from data.json or fallback
-    );
+    
 
     const helpersCode = fssync.readFileSync("helpers.js", "utf8");
 
@@ -172,7 +158,7 @@ if (process.env.JSREPORT_CLI) {
     app.listen(PORT, () => {
       console.log(`🌐 API Server running on port ${PORT}`);
       console.log('\n📋 Available Endpoints:');
-      console.log(`   POST http://localhost:${PORT}/generate-ppt - Generate PowerPoint`);
+      console.log(`   GET http://localhost:${PORT}/generate-ppt - Generate PowerPoint`);
       console.log(`   GET  http://localhost:${PORT}/health - Health check`);
       console.log(`   GET  http://localhost:${PORT}/templates/default - Check default files`);
       console.log('\n📤 You can now make API calls to generate PowerPoint presentations!');

@@ -830,12 +830,12 @@
     "competencies": [
       {
         "name": "Financial Acumen",
-        "score": 0,
+        "score": 0.2,
         "level": 4,
         "expected": 4
       },
       {
-        "name": "Decision Making",
+        "name": "Decision Making tayeb lagha",
         "score": 0,
         "level": 4,
         "expected": 3
