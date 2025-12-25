@@ -23,6 +23,34 @@ jsreport.beforeRenderListeners.add('pptx-config', (req, res) => {
   }
 });
 
+
+
+async function loadAllHelpers() {
+  const helpersDir = path.join(__dirname, 'handlebars_helpers');
+
+  const files = await fs.readdir(helpersDir);
+
+  const jsFiles = files
+    .filter(file => file.endsWith('.js'))
+    .sort();
+
+  let combinedCode = '';
+
+  for (const file of jsFiles) {
+    const content = await fs.readFile(path.join(helpersDir, file), 'utf8');
+    combinedCode += `\n/* --- ${file} --- */\n${content}\n`;
+  }
+  console.log("combined code is ",combinedCode)
+
+  return combinedCode;
+}
+
+
+
+
+
+
+
 // API Endpoint: Generate PPTX via GET
 app.get('/generate-ppt', async (req, res) => {
   try {
@@ -54,8 +82,9 @@ app.get('/generate-ppt', async (req, res) => {
     }
 
     
+    
 
-    const helpersCode = fssync.readFileSync("helpers.js", "utf8");
+    //const helpersCode = fssync.readFileSync("helpers.js", "utf8");
 
     // --- Render PPTX using jsreport ---
     const report = await jsreport.render({
@@ -150,8 +179,9 @@ if (process.env.JSREPORT_CLI) {
   // Export jsreport instance for jsreport-cli
   module.exports = jsreport;
 } else {
-  jsreport.init().then(() => {
+  jsreport.init().then(async () => {
     console.log('🚀 jsreport initialized successfully');
+     helpersCode = await loadAllHelpers();
 
     // Start Express server
     const PORT = process.env.PORT || 3000;
