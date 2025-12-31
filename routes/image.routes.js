@@ -261,4 +261,167 @@ function cropCanvasToContent(canvas, padding = 0) {
   return outCanvas.toBuffer('image/png');
 }
 
+
+
+router.get('/data-radar-image', async (req, res) => {
+  try {
+    // Get data from query parameter
+    if (!req.query.data) {
+      return res.status(400).json({ error: 'Missing "data" query parameter' });
+    }
+
+    // Parse the data array
+    const data = JSON.parse(decodeURIComponent(req.query.data));
+    
+    // Validate data structure
+    if (!Array.isArray(data) || data.length === 0) {
+      return res.status(400).json({ error: 'Data must be a non-empty array' });
+    }
+
+    // Build ECharts radar chart option from data
+    const echartsOption = buildRadarOption(data);
+    
+    // Chart dimensions
+    const width = 1600;
+    const height = 800;
+
+    // Ensure proper radar configuration
+    echartsOption.backgroundColor = echartsOption.backgroundColor || 'transparent';
+    
+    if (!echartsOption.radar) {
+      echartsOption.radar = {};
+    }
+    echartsOption.radar.center = echartsOption.radar.center || ['50%', '50%'];
+    echartsOption.radar.radius = echartsOption.radar.radius || '75%';
+
+    // Create canvas and render chart
+    const canvas = createCanvas(width, height);
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#FFFFFF';
+    ctx.fillRect(0, 0, width, height);
+
+    // Initialize ECharts and set option
+    const chart = echarts.init(canvas);
+    chart.setOption(echartsOption);
+    
+    // IMPORTANT: In node-canvas environment, we need to use a different approach
+    // to wait for rendering. The 'rendered' event works differently.
+    chart.setOption(echartsOption, true); // true for not merging with previous option
+    
+    // Simple timeout approach - give it time to render
+    await new Promise(resolve => setTimeout(resolve, 500));
+    
+    // Alternative: Use echarts' built-in rendering completion
+    // chart.on('finished', resolve); might work in some versions
+
+    // Crop to content and get buffer
+    const cropBuffer = cropCanvasToContent(canvas, 20);
+    chart.dispose();
+
+    // Return image
+    res.setHeader('Content-Type', 'image/png');
+    res.setHeader('Content-Disposition', 'inline; filename="radar-chart.png"');
+    res.setHeader('Cache-Control', 'no-store, max-age=0');
+    res.send(cropBuffer);
+
+  } catch (err) {
+    console.error('Error generating radar chart:', err);
+    res.status(500).json({ error: 'Error generating chart', details: err.message });
+  }
+});
+
+/**
+ * Build ECharts radar option from data array
+ */
+function buildRadarOption(data) {
+  // Extract indicators (axes) from data
+  const indicators = data.map(item => ({
+    name: item.name,
+    max: 100, // Since we're using percentages
+    min: 0
+  }));
+
+  // Convert scores to percentages
+  const values = data.map(item => Math.round(item.score * 100));
+
+  return {
+    animation: false, // Disable animation for faster rendering in Node.js
+    tooltip: {
+      trigger: 'item',
+      formatter: function(params) {
+        return `${params.name}<br/>Score: ${params.value}%`;
+      }
+    },
+    radar: {
+      indicator: indicators,
+      splitNumber: 5,
+      axisName: {
+        color: '#666',
+        fontSize: 18,
+        fontWeight: 'normal',
+        padding: [0, 10],
+        formatter: function(name) {
+          // Truncate long names to prevent overlap
+          return name.length > 30 ? name.substring(0, 27) + '...' : name;
+        }
+      },
+      splitArea: {
+        areaStyle: {
+          color: ['rgba(25, 100, 150, 0.05)', 'rgba(25, 100, 150, 0.1)', 
+                  'rgba(25, 100, 150, 0.15)', 'rgba(25, 100, 150, 0.2)', 
+                  'rgba(25, 100, 150, 0.25)']
+        }
+      },
+      axisLine: {
+        lineStyle: {
+          color: 'rgba(25, 100, 150, 0.5)'
+        }
+      },
+      splitLine: {
+        lineStyle: {
+          color: 'rgba(25, 100, 150, 0.5)'
+        }
+      }
+    },
+    series: [{
+      type: 'radar',
+      data: [{
+        value: values,
+        name: 'Skills Assessment',
+        label: {
+          show: true,
+          formatter: function(params) {
+            return `${params.value}%`;
+          },
+          color: '#1B384D',
+          fontSize: 14,
+          fontWeight: 'bold',
+          position: 'top',
+          distance: 2,
+          backgroundColor: 'rgba(255, 255, 255, 0.8)',
+          borderColor: 'rgba(76, 175, 80, 0.5)',
+          borderWidth: 1,
+          borderRadius: 4,
+          padding: [4, 6]
+        },
+        areaStyle: {
+          color: 'rgba(76, 175, 80, 0.5)'
+        },
+        lineStyle: {
+          color: 'rgba(76, 175, 80, 1)',
+          width: 2
+        },
+        itemStyle: {
+          color: 'rgba(76, 175, 80, 1)'
+        }
+      }]
+    }],
+    grid: {
+      top: 80,
+      bottom: 80
+    }
+  };
+}
+
+
 module.exports = router;
