@@ -424,4 +424,59 @@ function buildRadarOption(data) {
 }
 
 
+router.get('/generate-card', (req, res) => {
+    // 1. Capture both text parameters
+    const text = req.query.text || "No Text";
+    const subtext = req.query.subtext || ""; // New parameter for second line
+    const state = req.query.state === 'true';
+
+    const width = 400;
+    const height = 150;
+    const cornerRadius = 25; 
+    
+    const canvas = createCanvas(width, height);
+    const ctx = canvas.getContext('2d');
+
+    // Draw the Rounded Rectangle Background
+    ctx.beginPath();
+    ctx.moveTo(cornerRadius, 0);
+    ctx.lineTo(width - cornerRadius, 0);
+    ctx.quadraticCurveTo(width, 0, width, cornerRadius);
+    ctx.lineTo(width, height - cornerRadius);
+    ctx.quadraticCurveTo(width, height, width - cornerRadius, height);
+    ctx.lineTo(cornerRadius, height);
+    ctx.quadraticCurveTo(0, height, 0, height - cornerRadius);
+    ctx.lineTo(0, cornerRadius);
+    ctx.quadraticCurveTo(0, 0, cornerRadius, 0);
+    ctx.closePath();
+
+    // Set Colors (Using the brighter yellow you liked)
+    ctx.fillStyle = state ? '#FFF176' : '#F0F2F5';
+    ctx.fill();
+
+    // Add the Text Styling
+    ctx.fillStyle = '#2C3E50'; 
+    ctx.font = state ? 'bold 24px Arial' : '22px Arial';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    
+    // 2. Multi-line Logic
+    if (subtext) {
+        // If there is a second line, shift them so they share the center
+        // Line 1: Centered horizontally, moved up 18 pixels
+        ctx.fillText(text, width / 2, (height / 2) - 18);
+        
+        // Line 2: Centered horizontally, moved down 18 pixels
+        ctx.fillText(subtext, width / 2, (height / 2) + 18);
+    } else {
+        // If no second line, just draw the first line perfectly in the center
+        ctx.fillText(text, width / 2, height / 2);
+    }
+
+    const buffer = canvas.toBuffer('image/png');
+    res.set('Content-Type', 'image/png');
+    res.send(buffer);
+});
+
+
 module.exports = router;

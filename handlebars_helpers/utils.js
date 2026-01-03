@@ -1,18 +1,4 @@
-Handlebars.registerHelper('firstCharUpper', function(str) {
-  if (typeof str !== 'string' || str.length === 0) {
-    return str; // return as-is if not a string or empty
-  }
-  return str.charAt(0).toUpperCase() + str.slice(1);
-});
 
-
-
-
-Handlebars.registerHelper('concat', function() {
-  // arguments is like [arg1, arg2, ..., options]
-  let args = Array.from(arguments).slice(0, -1);
-  return args.join('');
-});
 
 
 function getPrefix(gender) {
@@ -73,3 +59,6 @@ function buildInsightsFromInterview(interview) {
     .filter(k => interview[k] != null)
     .map(k => ({ name: fallbackKeys[k], score: normalizePercent(interview[k]) }));
 }
+
+
+

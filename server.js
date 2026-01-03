@@ -2,6 +2,7 @@ const express = require('express');
 const jsreport = require('jsreport')();
 const path = require('path');
 const fs = require('fs').promises;
+require('dotenv').config();
 
 // Routers
 const pptRoutes = require('./routes/ppt.routes');
@@ -25,9 +26,16 @@ async function loadAllHelpers() {
   const helpersDir = path.join(__dirname, 'handlebars_helpers');
   const files = (await fs.readdir(helpersDir)).filter(f => f.endsWith('.js'));
 
-  let code = '';
+  // 1. Inject the PUBLIC_HOST variable into the helper scope
+  let code =`const PUBLIC_BASE_URL = "${process.env.PUBLIC_HOST || 'http://localhost'}:${process.env.PUBLIC_PORT || '3000'}";\n`;
+
+
   for (const f of files) {
-    code += `\n/* ${f} */\n` + await fs.readFile(path.join(helpersDir, f), 'utf8');
+    const fileContent = await fs.readFile(path.join(helpersDir, f), 'utf8');
+    
+    // 2. Remove any existing 'Handlebars.registerHelper' calls if they exist
+    // and just append the raw function code
+    code += `\n/* File: ${f} */\n` + fileContent;
   }
   return code;
 }
@@ -45,7 +53,7 @@ if (!process.env.JSREPORT_CLI) {
   jsreport.init().then(async () => {
     app.locals.helpersCode = await loadAllHelpers();
 
-    const PORT = process.env.PORT || 3000;
+    const PORT = process.env.PUBLIC_PORT || 3000;
     app.listen(PORT, () =>
       console.log(`🚀 Server running on http://localhost:${PORT} \n`,
         `GET http://localhost:${PORT}/generate-ppt - Generate PowerPoint`)
